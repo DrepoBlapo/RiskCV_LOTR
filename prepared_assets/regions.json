@@ -1,0 +1,131 @@
+{
+  "regions": [
+    {
+      "id": "reino_perdido_de_andor",
+      "name": "reino_perdido_de_andor",
+      "value": 7,
+      "territories": [
+        "Angmar",
+        "Angmar_del_Este",
+        "Quebradas_del_Norte",
+        "Quebradas_del_Sur",
+        "Fornost",
+        "Forodwaith",
+        "Tierras_fronterizas",
+        "Colinas_del_Viento",
+        "Rhudaur",
+        "Bosque_Viejo",
+        "Los_Gamos"
+      ]
+    },
+    {
+      "id": "rhovanion",
+      "name": "rhovanion",
+      "value": 5,
+      "territories": [
+        "Moria",
+        "Lorien",
+        "Campos_Gladios",
+        "Emyn_Muil",
+        "Llanura_de_Rohan",
+        "Cienaga_de_los_muertos",
+        "Tierras_Pardas",
+        "Colinas_del_Rhun"
+      ]
+    },
+    {
+      "id": "rohan",
+      "name": "rohan",
+      "value":4,
+      "territories": [
+        "Minhiriath",
+        "Eregion",
+        "Tierras_Brunas",
+        "Enedwaith",
+        "Fangorn",
+        "Paso_de_Rohan",
+        "Rohan_del_Oeste"
+      ]
+    },
+    {
+      "id": "bosque_negro",
+      "name": "bosque_negro",
+      "value": 4,
+      "territories": [
+        "La_Carroca",
+        "Norte_del_Bosque_Negro",
+        "Este_del_Bosque_Negro",
+        "Valle_de_Anduin",
+        "Sur_del_Bosque_Negro"
+      ]
+    },
+    {
+      "id": "eriador",
+      "name": "eriador",
+      "value": 3,
+      "territories": [
+        "Forlindon",
+        "Valle_del_Lune",
+        "Colinas_de_Evendim",
+        "Colinas_de_la_Torre",
+        "La_Comarca",
+        "Milethond",
+        "Harlindon"
+      ]
+    },
+    {
+      "id": "rhun",
+      "name": "rhun",
+      "value": 2,
+      "territories": [
+        "Rhun_del_norte",
+        "Brezal_Seco",
+        "Rhun_del_sur",
+        "Esgaroth"
+      ]
+    },
+    {
+      "id": "gondor",
+      "name": "gondor",
+      "value": 7,
+      "territories": [
+        "Andrast",
+        "Orwaith_Iaur",
+        "Anfalas",
+        "Valle_de_Erech",
+        "Lamedon",
+        "Belfalas",
+        "Lebennin",
+        "Minas_Tirith",
+        "Ithilien",
+        "Ithilien_del_Sur"
+      ]
+    },
+    {
+      "id": "mordor",
+      "name": "mordor",
+      "value": 2,
+      "territories": [
+        "Valle_de_Udun",
+        "Barad-Dur",
+        "Meseta_de_Gorgoroth",
+        "Nurn",
+        "Minas_Morgul",
+        "Monte_del_Destino"
+      ]
+    },
+    {
+      "id": "haradwaith",
+      "name": "haradwaith",
+      "value": 2,
+      "territories": [
+        "Khand",
+        "Cercano_Harad",
+        "Harad",
+        "Harondor",
+        "Umbar",
+        "Lejano_Harad"
+      ]
+    }
+  ]
+}

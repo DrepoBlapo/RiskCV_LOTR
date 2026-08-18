@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "started_at": "20260815_155319_669541",
+  "model_path": "C:\\Users\\ppabl\\Desktop\\RISK\\app\\risk_phase_app_v2\\riskUI_app\\models\\best.pt",
+  "config_path": "C:\\Users\\ppabl\\Desktop\\RISK\\app\\risk_phase_app_v2\\riskUI_app\\config.json",
+  "phases": [
+    {
+      "phase_number": 1,
+      "captured_at_utc": "2026-08-15T13:53:39.753698+00:00",
+      "directory": "phase_0001",
+      "occupied_territories": 63,
+      "detections": 141
+    },
+    {
+      "phase_number": 2,
+      "captured_at_utc": "2026-08-15T13:54:31.740241+00:00",
+      "directory": "phase_0002",
+      "occupied_territories": 64,
+      "detections": 149
+    },
+    {
+      "phase_number": 3,
+      "captured_at_utc": "2026-08-15T14:11:11.039075+00:00",
+      "directory": "phase_0003",
+      "occupied_territories": 64,
+      "detections": 182
+    },
+    {
+      "phase_number": 4,
+      "captured_at_utc": "2026-08-15T14:12:02.961150+00:00",
+      "directory": "phase_0004",
+      "occupied_territories": 64,
+      "detections": 178
+    },
+    {
+      "phase_number": 5,
+      "captured_at_utc": "2026-08-15T14:17:31.976406+00:00",
+      "directory": "phase_0005",
+      "occupied_territories": 64,
+      "detections": 160
+    },
+    {
+      "phase_number": 6,
+      "captured_at_utc": "2026-08-15T14:31:27.815329+00:00",
+      "directory": "phase_0006",
+      "occupied_territories": 61,
+      "detections": 175
+    }
+  ]
+}

@@ -1,0 +1,1080 @@
+{
+  "schema_version": 1,
+  "reference_image": "C:\\Users\\ppabl\\Desktop\\RISK\\synthetic_ft\\synthetic_pin_generator\\prepared_assets\\map_texture.png",
+  "territories_file": "C:\\Users\\ppabl\\Desktop\\RISK\\synthetic_ft\\synthetic_pin_generator\\prepared_assets\\territories.json.gz",
+  "image_size_px": {
+    "width": 4096,
+    "height": 5874
+  },
+  "map_size_cm": {
+    "width": 50.5,
+    "height": 75.5
+  },
+  "territory_span_grid_px": {
+    "width": 2048,
+    "height": 2937
+  },
+  "mark_types": [
+    "marca_1",
+    "marca_2"
+  ],
+  "unresolved_territories": 0,
+  "marks": [
+    {
+      "mark_id": "mark_001",
+      "mark_type": "marca_1",
+      "territory_id": "Belfalas",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 1648,
+        "y_min": 4620,
+        "x_max": 1812,
+        "y_max": 4771
+      },
+      "center_px": {
+        "x": 1730.0,
+        "y": 4695.5
+      },
+      "center_normalized": {
+        "x": 0.42236328,
+        "y": 0.79937011
+      },
+      "center_cm": {
+        "x": 21.3293,
+        "y": 60.3524
+      },
+      "size_px": {
+        "width": 164,
+        "height": 151
+      },
+      "size_cm": {
+        "width": 2.022,
+        "height": 1.9408
+      }
+    },
+    {
+      "mark_id": "mark_002",
+      "mark_type": "marca_1",
+      "territory_id": "Lebennin",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 2235,
+        "y_min": 4484,
+        "x_max": 2393,
+        "y_max": 4671
+      },
+      "center_px": {
+        "x": 2314.0,
+        "y": 4577.5
+      },
+      "center_normalized": {
+        "x": 0.56494141,
+        "y": 0.77928158
+      },
+      "center_cm": {
+        "x": 28.5295,
+        "y": 58.8358
+      },
+      "size_px": {
+        "width": 158,
+        "height": 187
+      },
+      "size_cm": {
+        "width": 1.948,
+        "height": 2.4036
+      }
+    },
+    {
+      "mark_id": "mark_003",
+      "mark_type": "marca_1",
+      "territory_id": "Ithilien",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 2636,
+        "y_min": 4277,
+        "x_max": 2822,
+        "y_max": 4434
+      },
+      "center_px": {
+        "x": 2729.0,
+        "y": 4355.5
+      },
+      "center_normalized": {
+        "x": 0.66625977,
+        "y": 0.74148791
+      },
+      "center_cm": {
+        "x": 33.6461,
+        "y": 55.9823
+      },
+      "size_px": {
+        "width": 186,
+        "height": 157
+      },
+      "size_cm": {
+        "width": 2.2932,
+        "height": 2.018
+      }
+    },
+    {
+      "mark_id": "mark_004",
+      "mark_type": "marca_1",
+      "territory_id": "Khand",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 3653,
+        "y_min": 5036,
+        "x_max": 3840,
+        "y_max": 5179
+      },
+      "center_px": {
+        "x": 3746.5,
+        "y": 5107.5
+      },
+      "center_normalized": {
+        "x": 0.91467285,
+        "y": 0.8695097
+      },
+      "center_cm": {
+        "x": 46.191,
+        "y": 65.648
+      },
+      "size_px": {
+        "width": 187,
+        "height": 143
+      },
+      "size_cm": {
+        "width": 2.3055,
+        "height": 1.838
+      }
+    },
+    {
+      "mark_id": "mark_005",
+      "mark_type": "marca_1",
+      "territory_id": "Barad-Dur",
+      "territory_assignment": "manual",
+      "bbox_px": {
+        "x_min": 3309,
+        "y_min": 4012,
+        "x_max": 3546,
+        "y_max": 4169
+      },
+      "center_px": {
+        "x": 3427.5,
+        "y": 4090.5
+      },
+      "center_normalized": {
+        "x": 0.83679199,
+        "y": 0.69637385
+      },
+      "center_cm": {
+        "x": 42.258,
+        "y": 52.5762
+      },
+      "size_px": {
+        "width": 237,
+        "height": 157
+      },
+      "size_cm": {
+        "width": 2.922,
+        "height": 2.018
+      }
+    },
+    {
+      "mark_id": "mark_006",
+      "mark_type": "marca_1",
+      "territory_id": "Cienaga_de_los_muertos",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 3195,
+        "y_min": 3352,
+        "x_max": 3374,
+        "y_max": 3524
+      },
+      "center_px": {
+        "x": 3284.5,
+        "y": 3438.0
+      },
+      "center_normalized": {
+        "x": 0.80187988,
+        "y": 0.58529111
+      },
+      "center_cm": {
+        "x": 40.4949,
+        "y": 44.1895
+      },
+      "size_px": {
+        "width": 179,
+        "height": 172
+      },
+      "size_cm": {
+        "width": 2.2069,
+        "height": 2.2108
+      }
+    },
+    {
+      "mark_id": "mark_007",
+      "mark_type": "marca_1",
+      "territory_id": "Llanura_de_Rohan",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 2643,
+        "y_min": 3152,
+        "x_max": 2808,
+        "y_max": 3317
+      },
+      "center_px": {
+        "x": 2725.5,
+        "y": 3234.5
+      },
+      "center_normalized": {
+        "x": 0.66540527,
+        "y": 0.55064692
+      },
+      "center_cm": {
+        "x": 33.603,
+        "y": 41.5738
+      },
+      "size_px": {
+        "width": 165,
+        "height": 165
+      },
+      "size_cm": {
+        "width": 2.0343,
+        "height": 2.1208
+      }
+    },
+    {
+      "mark_id": "mark_008",
+      "mark_type": "marca_1",
+      "territory_id": "Lorien",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 2428,
+        "y_min": 2314,
+        "x_max": 2593,
+        "y_max": 2464
+      },
+      "center_px": {
+        "x": 2510.5,
+        "y": 2389.0
+      },
+      "center_normalized": {
+        "x": 0.61291504,
+        "y": 0.40670752
+      },
+      "center_cm": {
+        "x": 30.9522,
+        "y": 30.7064
+      },
+      "size_px": {
+        "width": 165,
+        "height": 150
+      },
+      "size_cm": {
+        "width": 2.0343,
+        "height": 1.928
+      }
+    },
+    {
+      "mark_id": "mark_009",
+      "mark_type": "marca_1",
+      "territory_id": "Paso_de_Rohan",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 2006,
+        "y_min": 3553,
+        "x_max": 2135,
+        "y_max": 3739
+      },
+      "center_px": {
+        "x": 2070.5,
+        "y": 3646.0
+      },
+      "center_normalized": {
+        "x": 0.50549316,
+        "y": 0.6207014
+      },
+      "center_cm": {
+        "x": 25.5274,
+        "y": 46.863
+      },
+      "size_px": {
+        "width": 129,
+        "height": 186
+      },
+      "size_cm": {
+        "width": 1.5905,
+        "height": 2.3907
+      }
+    },
+    {
+      "mark_id": "mark_010",
+      "mark_type": "marca_1",
+      "territory_id": "Valle_de_Erech",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 1619,
+        "y_min": 4012,
+        "x_max": 1820,
+        "y_max": 4155
+      },
+      "center_px": {
+        "x": 1719.5,
+        "y": 4083.5
+      },
+      "center_normalized": {
+        "x": 0.4197998,
+        "y": 0.69518216
+      },
+      "center_cm": {
+        "x": 21.1999,
+        "y": 52.4863
+      },
+      "size_px": {
+        "width": 201,
+        "height": 143
+      },
+      "size_cm": {
+        "width": 2.4781,
+        "height": 1.838
+      }
+    },
+    {
+      "mark_id": "mark_011",
+      "mark_type": "marca_1",
+      "territory_id": "Tierras_Pardas",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 3309,
+        "y_min": 1841,
+        "x_max": 3503,
+        "y_max": 1970
+      },
+      "center_px": {
+        "x": 3406.0,
+        "y": 1905.5
+      },
+      "center_normalized": {
+        "x": 0.83154297,
+        "y": 0.32439564
+      },
+      "center_cm": {
+        "x": 41.9929,
+        "y": 24.4919
+      },
+      "size_px": {
+        "width": 194,
+        "height": 129
+      },
+      "size_cm": {
+        "width": 2.3918,
+        "height": 1.6581
+      }
+    },
+    {
+      "mark_id": "mark_012",
+      "mark_type": "marca_1",
+      "territory_id": "Eregion",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 2070,
+        "y_min": 1669,
+        "x_max": 2249,
+        "y_max": 1870
+      },
+      "center_px": {
+        "x": 2159.5,
+        "y": 1769.5
+      },
+      "center_normalized": {
+        "x": 0.52722168,
+        "y": 0.30124276
+      },
+      "center_cm": {
+        "x": 26.6247,
+        "y": 22.7438
+      },
+      "size_px": {
+        "width": 179,
+        "height": 201
+      },
+      "size_cm": {
+        "width": 2.2069,
+        "height": 2.5835
+      }
+    },
+    {
+      "mark_id": "mark_013",
+      "mark_type": "marca_1",
+      "territory_id": "Colinas_del_Viento",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 1784,
+        "y_min": 1383,
+        "x_max": 1991,
+        "y_max": 1540
+      },
+      "center_px": {
+        "x": 1887.5,
+        "y": 1461.5
+      },
+      "center_normalized": {
+        "x": 0.46081543,
+        "y": 0.24880831
+      },
+      "center_cm": {
+        "x": 23.2712,
+        "y": 18.785
+      },
+      "size_px": {
+        "width": 207,
+        "height": 157
+      },
+      "size_cm": {
+        "width": 2.5521,
+        "height": 2.018
+      }
+    },
+    {
+      "mark_id": "mark_014",
+      "mark_type": "marca_1",
+      "territory_id": "Fornost",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 1426,
+        "y_min": 1268,
+        "x_max": 1605,
+        "y_max": 1440
+      },
+      "center_px": {
+        "x": 1515.5,
+        "y": 1354.0
+      },
+      "center_normalized": {
+        "x": 0.36999512,
+        "y": 0.23050732
+      },
+      "center_cm": {
+        "x": 18.6848,
+        "y": 17.4033
+      },
+      "size_px": {
+        "width": 179,
+        "height": 172
+      },
+      "size_cm": {
+        "width": 2.2069,
+        "height": 2.2108
+      }
+    },
+    {
+      "mark_id": "mark_015",
+      "mark_type": "marca_1",
+      "territory_id": "Minhiriath",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 1390,
+        "y_min": 2049,
+        "x_max": 1569,
+        "y_max": 2235
+      },
+      "center_px": {
+        "x": 1479.5,
+        "y": 2142.0
+      },
+      "center_normalized": {
+        "x": 0.36120605,
+        "y": 0.36465781
+      },
+      "center_cm": {
+        "x": 18.2409,
+        "y": 27.5317
+      },
+      "size_px": {
+        "width": 179,
+        "height": 186
+      },
+      "size_cm": {
+        "width": 2.2069,
+        "height": 2.3907
+      }
+    },
+    {
+      "mark_id": "mark_016",
+      "mark_type": "marca_1",
+      "territory_id": "La_Comarca",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 1103,
+        "y_min": 1476,
+        "x_max": 1268,
+        "y_max": 1655
+      },
+      "center_px": {
+        "x": 1185.5,
+        "y": 1565.5
+      },
+      "center_normalized": {
+        "x": 0.28942871,
+        "y": 0.26651345
+      },
+      "center_cm": {
+        "x": 14.6161,
+        "y": 20.1218
+      },
+      "size_px": {
+        "width": 165,
+        "height": 179
+      },
+      "size_cm": {
+        "width": 2.0343,
+        "height": 2.3007
+      }
+    },
+    {
+      "mark_id": "mark_017",
+      "mark_type": "marca_1",
+      "territory_id": "Milethond",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 494,
+        "y_min": 1182,
+        "x_max": 702,
+        "y_max": 1354
+      },
+      "center_px": {
+        "x": 598.0,
+        "y": 1268.0
+      },
+      "center_normalized": {
+        "x": 0.14599609,
+        "y": 0.21586653
+      },
+      "center_cm": {
+        "x": 7.3728,
+        "y": 16.2979
+      },
+      "size_px": {
+        "width": 208,
+        "height": 172
+      },
+      "size_cm": {
+        "width": 2.5645,
+        "height": 2.2108
+      }
+    },
+    {
+      "mark_id": "mark_018",
+      "mark_type": "marca_1",
+      "territory_id": "Harlindon",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 437,
+        "y_min": 1648,
+        "x_max": 638,
+        "y_max": 1820
+      },
+      "center_px": {
+        "x": 537.5,
+        "y": 1734.0
+      },
+      "center_normalized": {
+        "x": 0.13122559,
+        "y": 0.29519918
+      },
+      "center_cm": {
+        "x": 6.6269,
+        "y": 22.2875
+      },
+      "size_px": {
+        "width": 201,
+        "height": 172
+      },
+      "size_cm": {
+        "width": 2.4781,
+        "height": 2.2108
+      }
+    },
+    {
+      "mark_id": "mark_019",
+      "mark_type": "marca_1",
+      "territory_id": "Forodwaith",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 1999,
+        "y_min": 279,
+        "x_max": 2156,
+        "y_max": 494
+      },
+      "center_px": {
+        "x": 2077.5,
+        "y": 386.5
+      },
+      "center_normalized": {
+        "x": 0.50720215,
+        "y": 0.06579843
+      },
+      "center_cm": {
+        "x": 25.6137,
+        "y": 4.9678
+      },
+      "size_px": {
+        "width": 157,
+        "height": 215
+      },
+      "size_cm": {
+        "width": 1.9357,
+        "height": 2.7634
+      }
+    },
+    {
+      "mark_id": "mark_020",
+      "mark_type": "marca_1",
+      "territory_id": "Angmar_del_Este",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 2307,
+        "y_min": 394,
+        "x_max": 2471,
+        "y_max": 580
+      },
+      "center_px": {
+        "x": 2389.0,
+        "y": 487.0
+      },
+      "center_normalized": {
+        "x": 0.58325195,
+        "y": 0.08290773
+      },
+      "center_cm": {
+        "x": 29.4542,
+        "y": 6.2595
+      },
+      "size_px": {
+        "width": 164,
+        "height": 186
+      },
+      "size_cm": {
+        "width": 2.022,
+        "height": 2.3907
+      }
+    },
+    {
+      "mark_id": "mark_021",
+      "mark_type": "marca_1",
+      "territory_id": "Norte_del_Bosque_Negro",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 2873,
+        "y_min": 630,
+        "x_max": 3030,
+        "y_max": 838
+      },
+      "center_px": {
+        "x": 2951.5,
+        "y": 734.0
+      },
+      "center_normalized": {
+        "x": 0.72058105,
+        "y": 0.12495744
+      },
+      "center_cm": {
+        "x": 36.3893,
+        "y": 9.4343
+      },
+      "size_px": {
+        "width": 157,
+        "height": 208
+      },
+      "size_cm": {
+        "width": 1.9357,
+        "height": 2.6735
+      }
+    },
+    {
+      "mark_id": "mark_033",
+      "mark_type": "marca_2",
+      "territory_id": "Sur_del_Bosque_Negro",
+      "territory_assignment": "manual",
+      "bbox_px": {
+        "x_min": 1064,
+        "y_min": 702,
+        "x_max": 1104,
+        "y_max": 744
+      },
+      "center_px": {
+        "x": 1084.0,
+        "y": 723.0
+      },
+      "center_normalized": {
+        "x": 0.26464844,
+        "y": 0.12308478
+      },
+      "center_cm": {
+        "x": 13.3647,
+        "y": 9.2929
+      },
+      "size_px": {
+        "width": 40,
+        "height": 42
+      },
+      "size_cm": {
+        "width": 0.4932,
+        "height": 0.5398
+      }
+    },
+    {
+      "mark_id": "mark_022",
+      "mark_type": "marca_1",
+      "territory_id": "Esgaroth",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 3116,
+        "y_min": 716,
+        "x_max": 3324,
+        "y_max": 881
+      },
+      "center_px": {
+        "x": 3220.0,
+        "y": 798.5
+      },
+      "center_normalized": {
+        "x": 0.78613281,
+        "y": 0.13593803
+      },
+      "center_cm": {
+        "x": 39.6997,
+        "y": 10.2633
+      },
+      "size_px": {
+        "width": 208,
+        "height": 165
+      },
+      "size_cm": {
+        "width": 2.5645,
+        "height": 2.1208
+      }
+    },
+    {
+      "mark_id": "mark_023",
+      "mark_type": "marca_2",
+      "territory_id": "Colinas_de_Evendim",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 1160,
+        "y_min": 924,
+        "x_max": 1318,
+        "y_max": 1117
+      },
+      "center_px": {
+        "x": 1239.0,
+        "y": 1020.5
+      },
+      "center_normalized": {
+        "x": 0.30249023,
+        "y": 0.1737317
+      },
+      "center_cm": {
+        "x": 15.2758,
+        "y": 13.1167
+      },
+      "size_px": {
+        "width": 158,
+        "height": 193
+      },
+      "size_cm": {
+        "width": 1.948,
+        "height": 2.4807
+      }
+    },
+    {
+      "mark_id": "mark_024",
+      "mark_type": "marca_2",
+      "territory_id": "Rhudaur",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 2271,
+        "y_min": 1325,
+        "x_max": 2443,
+        "y_max": 1526
+      },
+      "center_px": {
+        "x": 2357.0,
+        "y": 1425.5
+      },
+      "center_normalized": {
+        "x": 0.57543945,
+        "y": 0.24267961
+      },
+      "center_cm": {
+        "x": 29.0597,
+        "y": 18.3223
+      },
+      "size_px": {
+        "width": 172,
+        "height": 201
+      },
+      "size_cm": {
+        "width": 2.1206,
+        "height": 2.5835
+      }
+    },
+    {
+      "mark_id": "mark_025",
+      "mark_type": "marca_2",
+      "territory_id": "Moria",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 2221,
+        "y_min": 1820,
+        "x_max": 2385,
+        "y_max": 1984
+      },
+      "center_px": {
+        "x": 2303.0,
+        "y": 1902.0
+      },
+      "center_normalized": {
+        "x": 0.56225586,
+        "y": 0.3237998
+      },
+      "center_cm": {
+        "x": 28.3939,
+        "y": 24.4469
+      },
+      "size_px": {
+        "width": 164,
+        "height": 164
+      },
+      "size_cm": {
+        "width": 2.022,
+        "height": 2.1079
+      }
+    },
+    {
+      "mark_id": "mark_026",
+      "mark_type": "marca_2",
+      "territory_id": "Fangorn",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 1999,
+        "y_min": 2908,
+        "x_max": 2135,
+        "y_max": 3066
+      },
+      "center_px": {
+        "x": 2067.0,
+        "y": 2987.0
+      },
+      "center_normalized": {
+        "x": 0.50463867,
+        "y": 0.50851209
+      },
+      "center_cm": {
+        "x": 25.4843,
+        "y": 38.3927
+      },
+      "size_px": {
+        "width": 136,
+        "height": 158
+      },
+      "size_cm": {
+        "width": 1.6768,
+        "height": 2.0308
+      }
+    },
+    {
+      "mark_id": "mark_027",
+      "mark_type": "marca_2",
+      "territory_id": "Rohan_del_Oeste",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 1769,
+        "y_min": 3481,
+        "x_max": 1920,
+        "y_max": 3646
+      },
+      "center_px": {
+        "x": 1844.5,
+        "y": 3563.5
+      },
+      "center_normalized": {
+        "x": 0.45031738,
+        "y": 0.60665645
+      },
+      "center_cm": {
+        "x": 22.741,
+        "y": 45.8026
+      },
+      "size_px": {
+        "width": 151,
+        "height": 165
+      },
+      "size_cm": {
+        "width": 1.8617,
+        "height": 2.1208
+      }
+    },
+    {
+      "mark_id": "mark_028",
+      "mark_type": "marca_2",
+      "territory_id": "Minas_Tirith",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 2278,
+        "y_min": 3983,
+        "x_max": 2493,
+        "y_max": 4183
+      },
+      "center_px": {
+        "x": 2385.5,
+        "y": 4083.0
+      },
+      "center_normalized": {
+        "x": 0.58239746,
+        "y": 0.69509704
+      },
+      "center_cm": {
+        "x": 29.4111,
+        "y": 52.4798
+      },
+      "size_px": {
+        "width": 215,
+        "height": 200
+      },
+      "size_cm": {
+        "width": 2.6508,
+        "height": 2.5707
+      }
+    },
+    {
+      "mark_id": "mark_029",
+      "mark_type": "marca_2",
+      "territory_id": "Valle_de_Udun",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 2916,
+        "y_min": 3847,
+        "x_max": 3095,
+        "y_max": 4012
+      },
+      "center_px": {
+        "x": 3005.5,
+        "y": 3929.5
+      },
+      "center_normalized": {
+        "x": 0.73376465,
+        "y": 0.66896493
+      },
+      "center_cm": {
+        "x": 37.0551,
+        "y": 50.5069
+      },
+      "size_px": {
+        "width": 179,
+        "height": 165
+      },
+      "size_cm": {
+        "width": 2.2069,
+        "height": 2.1208
+      }
+    },
+    {
+      "mark_id": "mark_030",
+      "mark_type": "marca_2",
+      "territory_id": "Barad-Dur",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 3567,
+        "y_min": 3961,
+        "x_max": 3718,
+        "y_max": 4176
+      },
+      "center_px": {
+        "x": 3642.5,
+        "y": 4068.5
+      },
+      "center_normalized": {
+        "x": 0.88928223,
+        "y": 0.69262853
+      },
+      "center_cm": {
+        "x": 44.9088,
+        "y": 52.2935
+      },
+      "size_px": {
+        "width": 151,
+        "height": 215
+      },
+      "size_cm": {
+        "width": 1.8617,
+        "height": 2.7634
+      }
+    },
+    {
+      "mark_id": "mark_031",
+      "mark_type": "marca_2",
+      "territory_id": "Umbar",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 2020,
+        "y_min": 5294,
+        "x_max": 2235,
+        "y_max": 5466
+      },
+      "center_px": {
+        "x": 2127.5,
+        "y": 5380.0
+      },
+      "center_normalized": {
+        "x": 0.51940918,
+        "y": 0.91590058
+      },
+      "center_cm": {
+        "x": 26.2302,
+        "y": 69.1505
+      },
+      "size_px": {
+        "width": 215,
+        "height": 172
+      },
+      "size_cm": {
+        "width": 2.6508,
+        "height": 2.2108
+      }
+    },
+    {
+      "mark_id": "mark_032",
+      "mark_type": "marca_2",
+      "territory_id": "Minas_Morgul",
+      "territory_assignment": "automatic",
+      "bbox_px": {
+        "x_min": 3001,
+        "y_min": 4420,
+        "x_max": 3216,
+        "y_max": 4577
+      },
+      "center_px": {
+        "x": 3108.5,
+        "y": 4498.5
+      },
+      "center_normalized": {
+        "x": 0.75891113,
+        "y": 0.76583248
+      },
+      "center_cm": {
+        "x": 38.325,
+        "y": 57.8204
+      },
+      "size_px": {
+        "width": 215,
+        "height": 157
+      },
+      "size_cm": {
+        "width": 2.6508,
+        "height": 2.018
+      }
+    }
+  ]
+}

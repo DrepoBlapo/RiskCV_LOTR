@@ -1,0 +1,96 @@
+{
+  "model": {
+    "path": "./models/best.pt",
+    "confidence": 0.30,
+    "iou": 0.55,
+    "imgsz": 1280,
+    "device": "0",
+    "half": true,
+    "max_det": 300
+  },
+  "camera": {
+    "index": 1,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "backend": "dshow"
+  },
+  "assets": {
+    "territory_id_map": "./prepared_assets/territory_id_map.png",
+    "territories": "./prepared_assets/territories.json.gz",
+    "map_texture": "./prepared_assets/map_texture.png",
+    "map_orography_overlay": "./prepared_assets/map_orography_overlay.png",
+    "map_marks": "./prepared_assets/map_texture_marcas.json",
+    "regions": "./prepared_assets/regions.json"
+  },
+  "marks": {
+    "type_to_color": {
+      "marca_1": "marca_1",
+      "marca_2": "marca_2"
+    }
+  },
+  "conflict_resolution": {
+    "strategy": "evidence_weighted",
+    "weights": {"max": 1.0, "mean": 0.5, "sum": 0.0, "count": 0.0},
+    "zoom": {"enabled": true, "padding_fraction": 0.8, "confidence": 0.20, "merge": "replace"}
+  },
+  "calibration": {
+    "file": "./app_data/calibration.json",
+    "lookup_radius_px": 8,
+    "contact_y_fraction": 0.92
+  },
+  "output": {
+    "directory": "./phase_results"
+  },
+  "display": {
+    "orography_opacity": 1.0,
+    "region_stripes": {
+      "enabled": true,
+      "spacing_px": 32,
+      "thickness_px": 8,
+      "opacity": 0.65
+    },
+    "colors": {
+      "negro": "#151413",
+      "rojo": "#981A22",
+      "amarillo": "#FAE81E",
+      "verde": "#AFC839"
+    }
+  },
+  "table": {
+    "color_order": ["negro", "rojo", "amarillo", "verde"],
+    "columns": [
+      {
+        "key": "changed_territories",
+        "title": "Nuevos territorios",
+        "format": "{:.0f}"
+      },
+      {
+        "key": "changed_territories_with_mark_type_1",
+        "title": "Cartas de poder",
+        "format": "{:.0f}"
+      },
+      {
+        "key": "territories",
+        "title": "Territorios",
+        "format": "{:.0f}"
+      },
+      {
+        "key": "controlled_marks_type_2",
+        "title": "Fortalezas",
+        "format": "{:.0f}"
+      },
+      {
+        "key": "control_region",
+        "title": "Control regional",
+        "format": "{:.0f}"
+      },
+      {
+        "key": "metric_x",
+        "title": "Refuerzos",
+        "formula": "(territories / 3) + controlled_marks_type_2 + control_region",
+        "format": "{:.2f}"
+      }
+    ]
+  }
+}

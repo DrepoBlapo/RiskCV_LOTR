@@ -1,0 +1,5237 @@
+{
+  "version": 1,
+  "phase_number": 6,
+  "captured_at_utc": "2026-08-15T12:59:42.517419+00:00",
+  "model_path": "C:\\Users\\ppabl\\Desktop\\RISK\\app\\risk_phase_app_v2\\riskUI_app\\models\\best.pt",
+  "images": {
+    "raw": "frame_raw.png",
+    "annotated": "frame_annotated.png",
+    "territory_map": "territory_map.png"
+  },
+  "calibration": {
+    "frame_size": [
+      2560,
+      1440
+    ],
+    "map_size": [
+      2048,
+      2937
+    ],
+    "corners": [
+      [
+        288.89848812095033,
+        1409.5969289827256
+      ],
+      [
+        9.676025917926566,
+        58.042226487524
+      ],
+      [
+        2555.85313174946,
+        16.583493282149714
+      ],
+      [
+        2326.3930885529157,
+        1431.708253358925
+      ]
+    ]
+  },
+  "detections": [
+    {
+      "class_id": 14,
+      "class_name": "v3",
+      "confidence": 0.955078125,
+      "bbox_xyxy": [
+        701.5,
+        378.0,
+        769.0,
+        439.75
+      ],
+      "color": "verde",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        735.25,
+        434.81
+      ],
+      "map_point": [
+        1554.249267578125,
+        817.9105224609375
+      ],
+      "territory_id": "Este_del_Bosque_Negro",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.9541015625,
+      "bbox_xyxy": [
+        882.0,
+        908.0,
+        929.5,
+        958.0
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        905.75,
+        954.0
+      ],
+      "map_point": [
+        795.1830444335938,
+        973.3190307617188
+      ],
+      "territory_id": "Quebradas_del_Sur",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 1,
+      "class_name": "n2",
+      "confidence": 0.93359375,
+      "bbox_xyxy": [
+        523.0,
+        1060.0,
+        594.0,
+        1102.0
+      ],
+      "color": "negro",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        558.5,
+        1098.64
+      ],
+      "map_point": [
+        557.3880004882812,
+        471.8263854980469
+      ],
+      "territory_id": "Colinas_de_Evendim",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.93115234375,
+      "bbox_xyxy": [
+        1989.0,
+        558.0,
+        2050.0,
+        596.0
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        2019.5,
+        592.96
+      ],
+      "map_point": [
+        1326.5738525390625,
+        2400.345458984375
+      ],
+      "territory_id": "Ithilien_del_Sur",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 0,
+      "class_name": "n1",
+      "confidence": 0.90478515625,
+      "bbox_xyxy": [
+        864.5,
+        1076.0,
+        908.0,
+        1119.0
+      ],
+      "color": "negro",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        886.25,
+        1115.56
+      ],
+      "map_point": [
+        531.6168212890625,
+        926.5435791015625
+      ],
+      "territory_id": "La_Comarca",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 1,
+      "class_name": "n2",
+      "confidence": 0.89697265625,
+      "bbox_xyxy": [
+        403.75,
+        1028.0,
+        461.25,
+        1088.0
+      ],
+      "color": "negro",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        432.5,
+        1083.2
+      ],
+      "map_point": [
+        582.3314208984375,
+        298.23272705078125
+      ],
+      "territory_id": "Valle_del_Lune",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 1,
+      "class_name": "n2",
+      "confidence": 0.861328125,
+      "bbox_xyxy": [
+        980.5,
+        1216.0,
+        1009.5,
+        1291.0
+      ],
+      "color": "negro",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        995.0,
+        1285.0
+      ],
+      "map_point": [
+        240.4962921142578,
+        1059.1265869140625
+      ],
+      "territory_id": "Harlindon",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 4,
+      "class_name": "r1",
+      "confidence": 0.85693359375,
+      "bbox_xyxy": [
+        1324.0,
+        583.5,
+        1366.0,
+        631.5
+      ],
+      "color": "rojo",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1345.0,
+        627.66
+      ],
+      "map_point": [
+        1282.8006591796875,
+        1566.8883056640625
+      ],
+      "territory_id": "Llanura_de_Rohan",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 4,
+      "class_name": "r1",
+      "confidence": 0.85693359375,
+      "bbox_xyxy": [
+        653.0,
+        856.0,
+        702.0,
+        895.0
+      ],
+      "color": "rojo",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        677.5,
+        891.88
+      ],
+      "map_point": [
+        892.507568359375,
+        674.4357299804688
+      ],
+      "territory_id": "Colinas_del_Viento",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.85595703125,
+      "bbox_xyxy": [
+        1391.0,
+        234.625,
+        1472.0,
+        274.75
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1431.5,
+        271.54
+      ],
+      "map_point": [
+        1757.9761962890625,
+        1675.5294189453125
+      ],
+      "territory_id": "Tierras_Pardas",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.85107421875,
+      "bbox_xyxy": [
+        1183.0,
+        155.625,
+        1236.0,
+        195.75
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1209.5,
+        192.54
+      ],
+      "map_point": [
+        1860.3465576171875,
+        1414.2410888671875
+      ],
+      "territory_id": "Colinas_del_Rhun",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 12,
+      "class_name": "v1",
+      "confidence": 0.84375,
+      "bbox_xyxy": [
+        1300.0,
+        724.0,
+        1336.0,
+        768.5
+      ],
+      "color": "verde",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1318.0,
+        764.94
+      ],
+      "map_point": [
+        1084.525390625,
+        1529.724609375
+      ],
+      "territory_id": "Fangorn",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 4,
+      "class_name": "r1",
+      "confidence": 0.8408203125,
+      "bbox_xyxy": [
+        1879.0,
+        1139.0,
+        1913.0,
+        1194.0
+      ],
+      "color": "rojo",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1896.0,
+        1189.6
+      ],
+      "map_point": [
+        416.6994323730469,
+        2308.2236328125
+      ],
+      "territory_id": "Andrast",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 1,
+      "class_name": "n2",
+      "confidence": 0.8388671875,
+      "bbox_xyxy": [
+        2036.0,
+        317.0,
+        2076.0,
+        384.75
+      ],
+      "color": "negro",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        2056.0,
+        379.33
+      ],
+      "map_point": [
+        1611.7232666015625,
+        2420.106201171875
+      ],
+      "territory_id": "Nurn",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 1,
+      "class_name": "n2",
+      "confidence": 0.830078125,
+      "bbox_xyxy": [
+        689.5,
+        1101.0,
+        739.0,
+        1165.0
+      ],
+      "color": "negro",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        714.25,
+        1159.88
+      ],
+      "map_point": [
+        455.02587890625,
+        679.1222534179688
+      ],
+      "territory_id": "Colinas_de_la_Torre",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.81982421875,
+      "bbox_xyxy": [
+        1924.0,
+        826.0,
+        1990.0,
+        893.5
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1957.0,
+        888.1
+      ],
+      "map_point": [
+        899.20703125,
+        2355.27294921875
+      ],
+      "territory_id": "Belfalas",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.8115234375,
+      "bbox_xyxy": [
+        778.0,
+        1001.5,
+        828.0,
+        1051.0
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        803.0,
+        1047.04
+      ],
+      "map_point": [
+        644.673828125,
+        820.9164428710938
+      ],
+      "territory_id": "La_Comarca",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 12,
+      "class_name": "v1",
+      "confidence": 0.80908203125,
+      "bbox_xyxy": [
+        478.5,
+        552.5,
+        531.0,
+        587.0
+      ],
+      "color": "verde",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        504.75,
+        584.24
+      ],
+      "map_point": [
+        1350.35302734375,
+        501.6741943359375
+      ],
+      "territory_id": "La_Carroca",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 14,
+      "class_name": "v3",
+      "confidence": 0.79833984375,
+      "bbox_xyxy": [
+        1484.0,
+        937.5,
+        1546.0,
+        1000.0
+      ],
+      "color": "verde",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1515.0,
+        995.0
+      ],
+      "map_point": [
+        732.14990234375,
+        1786.31005859375
+      ],
+      "territory_id": "Rohan_del_Oeste",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 14,
+      "class_name": "v3",
+      "confidence": 0.79052734375,
+      "bbox_xyxy": [
+        838.0,
+        582.5,
+        917.5,
+        638.0
+      ],
+      "color": "verde",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        877.75,
+        633.56
+      ],
+      "map_point": [
+        1277.51025390625,
+        973.5394287109375
+      ],
+      "territory_id": "Campos_Gladios",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.78515625,
+      "bbox_xyxy": [
+        1892.0,
+        664.5,
+        1954.0,
+        727.5
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1923.0,
+        722.46
+      ],
+      "map_point": [
+        1144.398193359375,
+        2294.9580078125
+      ],
+      "territory_id": "Lebennin",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.7548828125,
+      "bbox_xyxy": [
+        1688.0,
+        677.5,
+        1770.0,
+        727.5
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1729.0,
+        723.5
+      ],
+      "map_point": [
+        1143.680908203125,
+        2051.875732421875
+      ],
+      "territory_id": "Minas_Tirith",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.75048828125,
+      "bbox_xyxy": [
+        298.5,
+        588.0,
+        373.0,
+        655.5
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        335.75,
+        650.1
+      ],
+      "map_point": [
+        1257.2020263671875,
+        268.2587585449219
+      ],
+      "territory_id": "Angmar_del_Este",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 4,
+      "class_name": "r1",
+      "confidence": 0.7490234375,
+      "bbox_xyxy": [
+        641.5,
+        962.0,
+        691.5,
+        1001.0
+      ],
+      "color": "rojo",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        666.5,
+        997.88
+      ],
+      "map_point": [
+        724.0730590820312,
+        641.199951171875
+      ],
+      "territory_id": "Fornost",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.74609375,
+      "bbox_xyxy": [
+        1718.0,
+        931.5,
+        1796.0,
+        988.0
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1757.0,
+        983.48
+      ],
+      "map_point": [
+        751.2753295898438,
+        2104.869384765625
+      ],
+      "territory_id": "Valle_de_Erech",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 14,
+      "class_name": "v3",
+      "confidence": 0.740234375,
+      "bbox_xyxy": [
+        943.0,
+        374.75,
+        985.5,
+        462.75
+      ],
+      "color": "verde",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        964.25,
+        455.71000000000004
+      ],
+      "map_point": [
+        1523.5333251953125,
+        1100.5384521484375
+      ],
+      "territory_id": "Sur_del_Bosque_Negro",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 12,
+      "class_name": "v1",
+      "confidence": 0.740234375,
+      "bbox_xyxy": [
+        2234.0,
+        779.5,
+        2266.0,
+        822.0
+      ],
+      "color": "verde",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        2250.0,
+        818.6
+      ],
+      "map_point": [
+        1003.217529296875,
+        2716.5986328125
+      ],
+      "territory_id": "Umbar",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 1,
+      "class_name": "n2",
+      "confidence": 0.7373046875,
+      "bbox_xyxy": [
+        1782.0,
+        331.25,
+        1831.0,
+        390.25
+      ],
+      "color": "negro",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1806.5,
+        385.53
+      ],
+      "map_point": [
+        1606.721435546875,
+        2125.052978515625
+      ],
+      "territory_id": "Monte_del_Destino",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 2,
+      "class_name": "n3",
+      "confidence": 0.73095703125,
+      "bbox_xyxy": [
+        711.5,
+        1189.0,
+        761.5,
+        1277.0
+      ],
+      "color": "negro",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        736.5,
+        1269.96
+      ],
+      "map_point": [
+        263.4808349609375,
+        691.45556640625
+      ],
+      "territory_id": "Milethond",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 10,
+      "class_name": "a3",
+      "confidence": 0.7138671875,
+      "bbox_xyxy": [
+        2308.0,
+        482.0,
+        2368.0,
+        547.0
+      ],
+      "color": "amarillo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        2338.0,
+        541.8
+      ],
+      "map_point": [
+        1393.9749755859375,
+        2777.713623046875
+      ],
+      "territory_id": "Harad",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 4,
+      "class_name": "r1",
+      "confidence": 0.70751953125,
+      "bbox_xyxy": [
+        552.5,
+        930.0,
+        602.0,
+        972.0
+      ],
+      "color": "rojo",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        577.25,
+        968.64
+      ],
+      "map_point": [
+        770.850830078125,
+        524.212646484375
+      ],
+      "territory_id": "Quebradas_del_Norte",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 2,
+      "class_name": "n3",
+      "confidence": 0.6826171875,
+      "bbox_xyxy": [
+        1894.0,
+        394.5,
+        1936.0,
+        476.25
+      ],
+      "color": "negro",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1915.0,
+        469.71000000000004
+      ],
+      "map_point": [
+        1494.6883544921875,
+        2261.430419921875
+      ],
+      "territory_id": "Minas_Morgul",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.662109375,
+      "bbox_xyxy": [
+        762.0,
+        923.0,
+        813.0,
+        963.0
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        787.5,
+        959.8
+      ],
+      "map_point": [
+        785.6309204101562,
+        812.5171508789062
+      ],
+      "territory_id": "Bosque_Viejo",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 12,
+      "class_name": "v1",
+      "confidence": 0.6513671875,
+      "bbox_xyxy": [
+        477.5,
+        438.5,
+        528.0,
+        480.75
+      ],
+      "color": "verde",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        502.75,
+        477.37
+      ],
+      "map_point": [
+        1499.0960693359375,
+        518.892822265625
+      ],
+      "territory_id": "Norte_del_Bosque_Negro",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.63720703125,
+      "bbox_xyxy": [
+        1067.0,
+        626.5,
+        1131.0,
+        690.0
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1099.0,
+        684.92
+      ],
+      "map_point": [
+        1202.3963623046875,
+        1252.2852783203125
+      ],
+      "territory_id": "Lorien",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.6279296875,
+      "bbox_xyxy": [
+        1785.0,
+        534.0,
+        1855.0,
+        591.5
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1820.0,
+        586.9
+      ],
+      "map_point": [
+        1336.4337158203125,
+        2155.728271484375
+      ],
+      "territory_id": "Ithilien",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 0,
+      "class_name": "n1",
+      "confidence": 0.62060546875,
+      "bbox_xyxy": [
+        1666.0,
+        452.25,
+        1699.0,
+        498.5
+      ],
+      "color": "negro",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1682.5,
+        494.8
+      ],
+      "map_point": [
+        1463.397705078125,
+        1982.1434326171875
+      ],
+      "territory_id": "Valle_de_Udun",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 1,
+      "class_name": "n2",
+      "confidence": 0.611328125,
+      "bbox_xyxy": [
+        526.0,
+        335.75,
+        572.0,
+        383.75
+      ],
+      "color": "negro",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        549.0,
+        379.91
+      ],
+      "map_point": [
+        1629.8382568359375,
+        594.0228881835938
+      ],
+      "territory_id": "Esgaroth",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 12,
+      "class_name": "v1",
+      "confidence": 0.611328125,
+      "bbox_xyxy": [
+        1067.0,
+        878.0,
+        1096.0,
+        922.5
+      ],
+      "color": "verde",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1081.5,
+        918.94
+      ],
+      "map_point": [
+        850.740234375,
+        1212.391845703125
+      ],
+      "territory_id": "Tierras_Brunas",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.611328125,
+      "bbox_xyxy": [
+        1706.0,
+        1082.0,
+        1740.0,
+        1149.0
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1723.0,
+        1143.64
+      ],
+      "map_point": [
+        491.9139099121094,
+        2070.79638671875
+      ],
+      "territory_id": "Orwaith_Iaur",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.556640625,
+      "bbox_xyxy": [
+        610.0,
+        698.0,
+        660.0,
+        788.5
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        635.0,
+        781.26
+      ],
+      "map_point": [
+        1062.0771484375,
+        636.4306640625
+      ],
+      "territory_id": "Tierras_fronterizas",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.552734375,
+      "bbox_xyxy": [
+        174.125,
+        639.0,
+        245.75,
+        696.5
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        209.9375,
+        691.9
+      ],
+      "map_point": [
+        1196.8173828125,
+        92.09888458251953
+      ],
+      "territory_id": "Forodwaith",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 14,
+      "class_name": "v3",
+      "confidence": 0.548828125,
+      "bbox_xyxy": [
+        779.5,
+        500.0,
+        860.5,
+        539.0
+      ],
+      "color": "verde",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        820.0,
+        535.88
+      ],
+      "map_point": [
+        1415.3929443359375,
+        911.4642944335938
+      ],
+      "territory_id": "Valle_de_Anduin",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 13,
+      "class_name": "v2",
+      "confidence": 0.546875,
+      "bbox_xyxy": [
+        779.5,
+        500.0,
+        860.5,
+        539.0
+      ],
+      "color": "verde",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        820.0,
+        535.88
+      ],
+      "map_point": [
+        1415.3929443359375,
+        911.4642944335938
+      ],
+      "territory_id": "Valle_de_Anduin",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.51953125,
+      "bbox_xyxy": [
+        1811.0,
+        1046.0,
+        1864.0,
+        1090.0
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1837.5,
+        1086.48
+      ],
+      "map_point": [
+        586.8466796875,
+        2219.534912109375
+      ],
+      "territory_id": "Anfalas",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 0,
+      "class_name": "n1",
+      "confidence": 0.48828125,
+      "bbox_xyxy": [
+        685.5,
+        851.5,
+        733.0,
+        890.5
+      ],
+      "color": "negro",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        709.25,
+        887.38
+      ],
+      "map_point": [
+        899.5435180664062,
+        717.915283203125
+      ],
+      "territory_id": "Colinas_del_Viento",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 2,
+      "class_name": "n3",
+      "confidence": 0.486328125,
+      "bbox_xyxy": [
+        1900.0,
+        134.5,
+        1973.0,
+        202.5
+      ],
+      "color": "negro",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1936.5,
+        197.06
+      ],
+      "map_point": [
+        1843.0093994140625,
+        2262.791748046875
+      ],
+      "territory_id": "Meseta_de_Gorgoroth",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.474609375,
+      "bbox_xyxy": [
+        451.25,
+        862.0,
+        517.0,
+        940.5
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        484.125,
+        934.22
+      ],
+      "map_point": [
+        825.5621948242188,
+        403.7789611816406
+      ],
+      "territory_id": "Tierras_fronterizas",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 0,
+      "class_name": "n1",
+      "confidence": 0.46484375,
+      "bbox_xyxy": [
+        1665.0,
+        452.0,
+        1699.0,
+        501.5
+      ],
+      "color": "negro",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1682.0,
+        497.54
+      ],
+      "map_point": [
+        1459.7078857421875,
+        1981.664306640625
+      ],
+      "territory_id": "Valle_de_Udun",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 2,
+      "class_name": "n3",
+      "confidence": 0.45703125,
+      "bbox_xyxy": [
+        601.5,
+        1284.0,
+        654.0,
+        1347.0
+      ],
+      "color": "negro",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        627.75,
+        1341.96
+      ],
+      "map_point": [
+        132.04457092285156,
+        519.9395141601562
+      ],
+      "territory_id": "Forlindon",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 2,
+      "class_name": "n3",
+      "confidence": 0.449462890625,
+      "bbox_xyxy": [
+        676.5,
+        1124.0,
+        718.0,
+        1186.0
+      ],
+      "color": "negro",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        697.25,
+        1181.04
+      ],
+      "map_point": [
+        418.540771484375,
+        651.3402099609375
+      ],
+      "territory_id": "Milethond",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 1,
+      "class_name": "n2",
+      "confidence": 0.447509765625,
+      "bbox_xyxy": [
+        588.5,
+        140.625,
+        632.0,
+        193.75
+      ],
+      "color": "negro",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        610.25,
+        189.5
+      ],
+      "map_point": [
+        1874.1007080078125,
+        699.0013427734375
+      ],
+      "territory_id": "Rhun_del_sur",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.43212890625,
+      "bbox_xyxy": [
+        1920.0,
+        813.5,
+        1986.0,
+        873.0
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1953.0,
+        868.24
+      ],
+      "map_point": [
+        929.2862548828125,
+        2347.971435546875
+      ],
+      "territory_id": "Belfalas",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.42431640625,
+      "bbox_xyxy": [
+        904.0,
+        699.0,
+        950.5,
+        748.0
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        927.25,
+        744.08
+      ],
+      "map_point": [
+        1116.6439208984375,
+        1025.3721923828125
+      ],
+      "territory_id": "Moria",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 14,
+      "class_name": "v3",
+      "confidence": 0.422607421875,
+      "bbox_xyxy": [
+        1479.0,
+        749.0,
+        1552.0,
+        790.5
+      ],
+      "color": "verde",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1515.5,
+        787.18
+      ],
+      "map_point": [
+        1051.0804443359375,
+        1783.2557373046875
+      ],
+      "territory_id": "Paso_de_Rohan",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 0,
+      "class_name": "n1",
+      "confidence": 0.422607421875,
+      "bbox_xyxy": [
+        589.5,
+        1333.0,
+        641.0,
+        1378.0
+      ],
+      "color": "negro",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        615.25,
+        1374.4
+      ],
+      "map_point": [
+        72.17239379882812,
+        494.69012451171875
+      ],
+      "territory_id": null,
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 14,
+      "class_name": "v3",
+      "confidence": 0.418701171875,
+      "bbox_xyxy": [
+        1177.0,
+        439.5,
+        1252.0,
+        484.0
+      ],
+      "color": "verde",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1214.5,
+        480.44
+      ],
+      "map_point": [
+        1487.4794921875,
+        1408.67919921875
+      ],
+      "territory_id": "Emyn_Muil",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 4,
+      "class_name": "r1",
+      "confidence": 0.4111328125,
+      "bbox_xyxy": [
+        1240.0,
+        586.5,
+        1286.0,
+        625.5
+      ],
+      "color": "rojo",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1263.0,
+        622.38
+      ],
+      "map_point": [
+        1290.8133544921875,
+        1463.81005859375
+      ],
+      "territory_id": "Llanura_de_Rohan",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 9,
+      "class_name": "a2",
+      "confidence": 0.39794921875,
+      "bbox_xyxy": [
+        967.0,
+        984.0,
+        1035.0,
+        1039.0
+      ],
+      "color": "amarillo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1001.0,
+        1034.6
+      ],
+      "map_point": [
+        666.1056518554688,
+        1093.7005615234375
+      ],
+      "territory_id": "Minhiriath",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.390380859375,
+      "bbox_xyxy": [
+        1782.0,
+        539.5,
+        1853.0,
+        594.0
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1817.5,
+        589.64
+      ],
+      "map_point": [
+        1332.65966796875,
+        2152.86376953125
+      ],
+      "territory_id": "Ithilien",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.381103515625,
+      "bbox_xyxy": [
+        175.25,
+        654.5,
+        251.875,
+        710.0
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        213.5625,
+        705.56
+      ],
+      "map_point": [
+        1176.625244140625,
+        93.36804962158203
+      ],
+      "territory_id": "Forodwaith",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 13,
+      "class_name": "v2",
+      "confidence": 0.368408203125,
+      "bbox_xyxy": [
+        1177.0,
+        439.5,
+        1252.0,
+        484.0
+      ],
+      "color": "verde",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1214.5,
+        480.44
+      ],
+      "map_point": [
+        1487.4794921875,
+        1408.67919921875
+      ],
+      "territory_id": "Emyn_Muil",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 2,
+      "class_name": "n3",
+      "confidence": 0.346923828125,
+      "bbox_xyxy": [
+        1860.0,
+        448.0,
+        1904.0,
+        502.5
+      ],
+      "color": "negro",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1882.0,
+        498.14
+      ],
+      "map_point": [
+        1456.966552734375,
+        2224.1513671875
+      ],
+      "territory_id": "Minas_Morgul",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 1,
+      "class_name": "n2",
+      "confidence": 0.34326171875,
+      "bbox_xyxy": [
+        601.5,
+        1284.0,
+        654.0,
+        1347.0
+      ],
+      "color": "negro",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        627.75,
+        1341.96
+      ],
+      "map_point": [
+        132.04457092285156,
+        519.9395141601562
+      ],
+      "territory_id": "Forlindon",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.341552734375,
+      "bbox_xyxy": [
+        610.5,
+        698.5,
+        660.5,
+        780.0
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        635.5,
+        773.48
+      ],
+      "map_point": [
+        1073.7716064453125,
+        638.4240112304688
+      ],
+      "territory_id": "Rhudaur",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 13,
+      "class_name": "v2",
+      "confidence": 0.3310546875,
+      "bbox_xyxy": [
+        809.5,
+        775.0,
+        875.5,
+        833.0
+      ],
+      "color": "verde",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        842.5,
+        828.36
+      ],
+      "map_point": [
+        990.3812866210938,
+        904.2472534179688
+      ],
+      "territory_id": "Eregion",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 9,
+      "class_name": "a2",
+      "confidence": 0.325927734375,
+      "bbox_xyxy": [
+        1268.0,
+        938.5,
+        1339.0,
+        987.0
+      ],
+      "color": "amarillo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1303.5,
+        983.12
+      ],
+      "map_point": [
+        750.219482421875,
+        1504.9874267578125
+      ],
+      "territory_id": "Enedwaith",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 12,
+      "class_name": "v1",
+      "confidence": 0.281494140625,
+      "bbox_xyxy": [
+        2102.0,
+        574.0,
+        2138.0,
+        609.5
+      ],
+      "color": "verde",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        2120.0,
+        606.66
+      ],
+      "map_point": [
+        1306.90771484375,
+        2524.46875
+      ],
+      "territory_id": "Harondor",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 2,
+      "class_name": "n3",
+      "confidence": 0.281494140625,
+      "bbox_xyxy": [
+        389.25,
+        1052.0,
+        456.25,
+        1115.0
+      ],
+      "color": "negro",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        422.75,
+        1109.96
+      ],
+      "map_point": [
+        537.2391967773438,
+        277.9926452636719
+      ],
+      "territory_id": "Valle_del_Lune",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.27978515625,
+      "bbox_xyxy": [
+        1920.0,
+        813.5,
+        1986.0,
+        873.0
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1953.0,
+        868.24
+      ],
+      "map_point": [
+        929.2862548828125,
+        2347.971435546875
+      ],
+      "territory_id": "Belfalas",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 8,
+      "class_name": "a1",
+      "confidence": 0.276611328125,
+      "bbox_xyxy": [
+        1067.0,
+        878.0,
+        1096.0,
+        922.5
+      ],
+      "color": "amarillo",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1081.5,
+        918.94
+      ],
+      "map_point": [
+        850.740234375,
+        1212.391845703125
+      ],
+      "territory_id": "Tierras_Brunas",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.267333984375,
+      "bbox_xyxy": [
+        1788.0,
+        854.0,
+        1839.0,
+        896.5
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1813.5,
+        893.1
+      ],
+      "map_point": [
+        891.4937744140625,
+        2171.4091796875
+      ],
+      "territory_id": "Lamedon",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 2,
+      "class_name": "n3",
+      "confidence": 0.25537109375,
+      "bbox_xyxy": [
+        235.375,
+        284.25,
+        302.75,
+        358.0
+      ],
+      "color": "negro",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        269.0625,
+        352.1
+      ],
+      "map_point": [
+        1670.356201171875,
+        249.76171875
+      ],
+      "territory_id": "Brezal_Seco",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 0,
+      "class_name": "n1",
+      "confidence": 0.25244140625,
+      "bbox_xyxy": [
+        1704.0,
+        194.875,
+        1744.0,
+        233.375
+      ],
+      "color": "negro",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1724.0,
+        230.29500000000002
+      ],
+      "map_point": [
+        1805.2862548828125,
+        2018.6243896484375
+      ],
+      "territory_id": "Barad-Dur",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 4,
+      "class_name": "r1",
+      "confidence": 0.2509765625,
+      "bbox_xyxy": [
+        1811.0,
+        1046.0,
+        1864.0,
+        1090.0
+      ],
+      "color": "rojo",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1837.5,
+        1086.48
+      ],
+      "map_point": [
+        586.8466796875,
+        2219.534912109375
+      ],
+      "territory_id": "Anfalas",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 2,
+      "class_name": "n3",
+      "confidence": 0.235107421875,
+      "bbox_xyxy": [
+        1723.0,
+        301.75,
+        1781.0,
+        358.0
+      ],
+      "color": "negro",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1752.0,
+        353.5
+      ],
+      "map_point": [
+        1648.886962890625,
+        2058.244140625
+      ],
+      "territory_id": "Monte_del_Destino",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.2294921875,
+      "bbox_xyxy": [
+        1844.0,
+        702.5,
+        1898.0,
+        757.0
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1871.0,
+        752.64
+      ],
+      "map_point": [
+        1100.8564453125,
+        2232.634765625
+      ],
+      "territory_id": "Lebennin",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.2281494140625,
+      "bbox_xyxy": [
+        1240.0,
+        586.5,
+        1286.0,
+        625.5
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1263.0,
+        622.38
+      ],
+      "map_point": [
+        1290.8133544921875,
+        1463.81005859375
+      ],
+      "territory_id": "Llanura_de_Rohan",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 2,
+      "class_name": "n3",
+      "confidence": 0.22265625,
+      "bbox_xyxy": [
+        2156.0,
+        378.0,
+        2216.0,
+        469.5
+      ],
+      "color": "negro",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        2186.0,
+        462.18
+      ],
+      "map_point": [
+        1501.89453125,
+        2584.31640625
+      ],
+      "territory_id": "Harad",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 3,
+      "class_name": "n0",
+      "confidence": 0.20556640625,
+      "bbox_xyxy": [
+        1738.0,
+        172.375,
+        1769.0,
+        230.0
+      ],
+      "color": "negro",
+      "pin_type": 0,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1753.5,
+        225.39
+      ],
+      "map_point": [
+        1810.923583984375,
+        2052.757080078125
+      ],
+      "territory_id": "Barad-Dur",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 10,
+      "class_name": "a3",
+      "confidence": 0.1981201171875,
+      "bbox_xyxy": [
+        2102.0,
+        578.0,
+        2146.0,
+        653.0
+      ],
+      "color": "amarillo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        2124.0,
+        647.0
+      ],
+      "map_point": [
+        1250.6685791015625,
+        2534.729248046875
+      ],
+      "territory_id": "Harondor",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 14,
+      "class_name": "v3",
+      "confidence": 0.1981201171875,
+      "bbox_xyxy": [
+        2102.0,
+        578.0,
+        2146.0,
+        653.0
+      ],
+      "color": "verde",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        2124.0,
+        647.0
+      ],
+      "map_point": [
+        1250.6685791015625,
+        2534.729248046875
+      ],
+      "territory_id": "Harondor",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.1871337890625,
+      "bbox_xyxy": [
+        453.25,
+        859.0,
+        518.0,
+        926.5
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        485.625,
+        921.1
+      ],
+      "map_point": [
+        846.3656616210938,
+        408.6513671875
+      ],
+      "territory_id": "Tierras_fronterizas",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 14,
+      "class_name": "v3",
+      "confidence": 0.184814453125,
+      "bbox_xyxy": [
+        2338.0,
+        287.5,
+        2414.0,
+        335.25
+      ],
+      "color": "verde",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        2376.0,
+        331.43
+      ],
+      "map_point": [
+        1669.016845703125,
+        2787.261962890625
+      ],
+      "territory_id": "Cercano_Harad",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 14,
+      "class_name": "v3",
+      "confidence": 0.182373046875,
+      "bbox_xyxy": [
+        835.0,
+        582.5,
+        913.5,
+        632.5
+      ],
+      "color": "verde",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        874.25,
+        628.5
+      ],
+      "map_point": [
+        1284.7547607421875,
+        969.628662109375
+      ],
+      "territory_id": "Campos_Gladios",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.1812744140625,
+      "bbox_xyxy": [
+        1892.0,
+        664.5,
+        1954.0,
+        727.5
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1923.0,
+        722.46
+      ],
+      "map_point": [
+        1144.398193359375,
+        2294.9580078125
+      ],
+      "territory_id": "Lebennin",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 14,
+      "class_name": "v3",
+      "confidence": 0.1812744140625,
+      "bbox_xyxy": [
+        840.0,
+        583.0,
+        919.0,
+        638.0
+      ],
+      "color": "verde",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        879.5,
+        633.6
+      ],
+      "map_point": [
+        1277.441650390625,
+        975.7765502929688
+      ],
+      "territory_id": "Campos_Gladios",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 14,
+      "class_name": "v3",
+      "confidence": 0.178955078125,
+      "bbox_xyxy": [
+        2254.0,
+        98.125,
+        2318.0,
+        155.75
+      ],
+      "color": "verde",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        2286.0,
+        151.14
+      ],
+      "map_point": [
+        1893.1480712890625,
+        2656.616943359375
+      ],
+      "territory_id": "Khand",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.16455078125,
+      "bbox_xyxy": [
+        1788.0,
+        854.0,
+        1839.0,
+        896.5
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1813.5,
+        893.1
+      ],
+      "map_point": [
+        891.4937744140625,
+        2171.4091796875
+      ],
+      "territory_id": "Lamedon",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 1,
+      "class_name": "n2",
+      "confidence": 0.162353515625,
+      "bbox_xyxy": [
+        2036.0,
+        322.0,
+        2080.0,
+        391.0
+      ],
+      "color": "negro",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        2058.0,
+        385.48
+      ],
+      "map_point": [
+        1603.739501953125,
+        2423.155517578125
+      ],
+      "territory_id": "Nurn",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.161376953125,
+      "bbox_xyxy": [
+        1844.0,
+        702.5,
+        1898.0,
+        757.0
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1871.0,
+        752.64
+      ],
+      "map_point": [
+        1100.8564453125,
+        2232.634765625
+      ],
+      "territory_id": "Lebennin",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.161376953125,
+      "bbox_xyxy": [
+        391.0,
+        791.5,
+        456.0,
+        859.5
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        423.5,
+        854.06
+      ],
+      "map_point": [
+        951.2503662109375,
+        338.95208740234375
+      ],
+      "territory_id": "Angmar",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 14,
+      "class_name": "v3",
+      "confidence": 0.1591796875,
+      "bbox_xyxy": [
+        2340.0,
+        286.75,
+        2426.0,
+        335.0
+      ],
+      "color": "verde",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        2383.0,
+        331.14
+      ],
+      "map_point": [
+        1669.2930908203125,
+        2795.314453125
+      ],
+      "territory_id": "Cercano_Harad",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 14,
+      "class_name": "v3",
+      "confidence": 0.1561279296875,
+      "bbox_xyxy": [
+        786.0,
+        772.5,
+        838.0,
+        837.5
+      ],
+      "color": "verde",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        812.0,
+        832.3
+      ],
+      "map_point": [
+        984.41015625,
+        863.29638671875
+      ],
+      "territory_id": "Quebradas_del_Sur",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 1,
+      "class_name": "n2",
+      "confidence": 0.155029296875,
+      "bbox_xyxy": [
+        1723.0,
+        301.75,
+        1781.0,
+        358.0
+      ],
+      "color": "negro",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1752.0,
+        353.5
+      ],
+      "map_point": [
+        1648.886962890625,
+        2058.244140625
+      ],
+      "territory_id": "Monte_del_Destino",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 14,
+      "class_name": "v3",
+      "confidence": 0.155029296875,
+      "bbox_xyxy": [
+        2254.0,
+        102.75,
+        2326.0,
+        200.5
+      ],
+      "color": "verde",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        2290.0,
+        192.68
+      ],
+      "map_point": [
+        1842.7545166015625,
+        2667.108154296875
+      ],
+      "territory_id": "Khand",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 13,
+      "class_name": "v2",
+      "confidence": 0.154052734375,
+      "bbox_xyxy": [
+        967.0,
+        984.0,
+        1035.0,
+        1039.0
+      ],
+      "color": "verde",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1001.0,
+        1034.6
+      ],
+      "map_point": [
+        666.1056518554688,
+        1093.7005615234375
+      ],
+      "territory_id": "Minhiriath",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 13,
+      "class_name": "v2",
+      "confidence": 0.1461181640625,
+      "bbox_xyxy": [
+        1268.0,
+        938.5,
+        1339.0,
+        987.0
+      ],
+      "color": "verde",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1303.5,
+        983.12
+      ],
+      "map_point": [
+        750.219482421875,
+        1504.9874267578125
+      ],
+      "territory_id": "Enedwaith",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 4,
+      "class_name": "r1",
+      "confidence": 0.1436767578125,
+      "bbox_xyxy": [
+        1788.0,
+        854.0,
+        1839.0,
+        896.5
+      ],
+      "color": "rojo",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1813.5,
+        893.1
+      ],
+      "map_point": [
+        891.4937744140625,
+        2171.4091796875
+      ],
+      "territory_id": "Lamedon",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.1431884765625,
+      "bbox_xyxy": [
+        294.25,
+        589.5,
+        362.5,
+        654.0
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        328.375,
+        648.84
+      ],
+      "map_point": [
+        1259.0755615234375,
+        258.87579345703125
+      ],
+      "territory_id": "Angmar_del_Este",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 14,
+      "class_name": "v3",
+      "confidence": 0.1357421875,
+      "bbox_xyxy": [
+        2340.0,
+        282.25,
+        2432.0,
+        333.25
+      ],
+      "color": "verde",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        2386.0,
+        329.17
+      ],
+      "map_point": [
+        1671.7506103515625,
+        2798.45703125
+      ],
+      "territory_id": "Cercano_Harad",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 0,
+      "class_name": "n1",
+      "confidence": 0.1298828125,
+      "bbox_xyxy": [
+        213.75,
+        304.25,
+        273.0,
+        349.0
+      ],
+      "color": "negro",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        243.375,
+        345.42
+      ],
+      "map_point": [
+        1679.5257568359375,
+        219.07484436035156
+      ],
+      "territory_id": "Brezal_Seco",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.1268310546875,
+      "bbox_xyxy": [
+        1391.0,
+        235.5,
+        1472.0,
+        275.0
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1431.5,
+        271.84000000000003
+      ],
+      "map_point": [
+        1757.5968017578125,
+        1675.5294189453125
+      ],
+      "territory_id": "Tierras_Pardas",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.12249755859375,
+      "bbox_xyxy": [
+        1067.0,
+        626.5,
+        1131.0,
+        690.0
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1099.0,
+        684.92
+      ],
+      "map_point": [
+        1202.3963623046875,
+        1252.2852783203125
+      ],
+      "territory_id": "Lorien",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 2,
+      "class_name": "n3",
+      "confidence": 0.118408203125,
+      "bbox_xyxy": [
+        1895.0,
+        396.0,
+        1937.0,
+        470.0
+      ],
+      "color": "negro",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1916.0,
+        464.08
+      ],
+      "map_point": [
+        1502.171630859375,
+        2262.126953125
+      ],
+      "territory_id": "Minas_Morgul",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 4,
+      "class_name": "r1",
+      "confidence": 0.11199951171875,
+      "bbox_xyxy": [
+        904.0,
+        699.0,
+        950.5,
+        748.0
+      ],
+      "color": "rojo",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        927.25,
+        744.08
+      ],
+      "map_point": [
+        1116.6439208984375,
+        1025.3721923828125
+      ],
+      "territory_id": "Moria",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 13,
+      "class_name": "v2",
+      "confidence": 0.1063232421875,
+      "bbox_xyxy": [
+        1479.0,
+        749.0,
+        1552.0,
+        790.5
+      ],
+      "color": "verde",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1515.5,
+        787.18
+      ],
+      "map_point": [
+        1051.0804443359375,
+        1783.2557373046875
+      ],
+      "territory_id": "Paso_de_Rohan",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 2,
+      "class_name": "n3",
+      "confidence": 0.10595703125,
+      "bbox_xyxy": [
+        1782.0,
+        331.25,
+        1831.0,
+        390.25
+      ],
+      "color": "negro",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1806.5,
+        385.53
+      ],
+      "map_point": [
+        1606.721435546875,
+        2125.052978515625
+      ],
+      "territory_id": "Monte_del_Destino",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 14,
+      "class_name": "v3",
+      "confidence": 0.105224609375,
+      "bbox_xyxy": [
+        967.0,
+        984.0,
+        1035.0,
+        1039.0
+      ],
+      "color": "verde",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1001.0,
+        1034.6
+      ],
+      "map_point": [
+        666.1056518554688,
+        1093.7005615234375
+      ],
+      "territory_id": "Minhiriath",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.1026611328125,
+      "bbox_xyxy": [
+        1785.0,
+        534.0,
+        1855.0,
+        591.5
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1820.0,
+        586.9
+      ],
+      "map_point": [
+        1336.4337158203125,
+        2155.728271484375
+      ],
+      "territory_id": "Ithilien",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.102294921875,
+      "bbox_xyxy": [
+        181.125,
+        657.0,
+        251.25,
+        710.5
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        216.1875,
+        706.22
+      ],
+      "map_point": [
+        1175.6357421875,
+        96.68763732910156
+      ],
+      "territory_id": "Forodwaith",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 2,
+      "class_name": "n3",
+      "confidence": 0.1015625,
+      "bbox_xyxy": [
+        2158.0,
+        391.75,
+        2214.0,
+        473.0
+      ],
+      "color": "negro",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        2186.0,
+        466.5
+      ],
+      "map_point": [
+        1496.17529296875,
+        2584.91357421875
+      ],
+      "territory_id": "Harad",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.09808349609375,
+      "bbox_xyxy": [
+        1782.0,
+        535.0,
+        1857.0,
+        593.0
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1819.5,
+        588.36
+      ],
+      "map_point": [
+        1334.4169921875,
+        2155.2236328125
+      ],
+      "territory_id": "Ithilien",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 2,
+      "class_name": "n3",
+      "confidence": 0.09503173828125,
+      "bbox_xyxy": [
+        213.75,
+        304.25,
+        273.0,
+        349.0
+      ],
+      "color": "negro",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        243.375,
+        345.42
+      ],
+      "map_point": [
+        1679.5257568359375,
+        219.07484436035156
+      ],
+      "territory_id": "Brezal_Seco",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.09173583984375,
+      "bbox_xyxy": [
+        1797.0,
+        535.0,
+        1856.0,
+        591.0
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1826.5,
+        586.52
+      ],
+      "map_point": [
+        1336.910400390625,
+        2163.675537109375
+      ],
+      "territory_id": "Ithilien",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 9,
+      "class_name": "a2",
+      "confidence": 0.0872802734375,
+      "bbox_xyxy": [
+        2308.0,
+        482.0,
+        2368.0,
+        547.0
+      ],
+      "color": "amarillo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        2338.0,
+        541.8
+      ],
+      "map_point": [
+        1393.9749755859375,
+        2777.713623046875
+      ],
+      "territory_id": "Harad",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.0872802734375,
+      "bbox_xyxy": [
+        904.0,
+        699.0,
+        950.5,
+        748.0
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        927.25,
+        744.08
+      ],
+      "map_point": [
+        1116.6439208984375,
+        1025.3721923828125
+      ],
+      "territory_id": "Moria",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 14,
+      "class_name": "v3",
+      "confidence": 0.0863037109375,
+      "bbox_xyxy": [
+        809.5,
+        775.0,
+        875.5,
+        833.0
+      ],
+      "color": "verde",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        842.5,
+        828.36
+      ],
+      "map_point": [
+        990.3812866210938,
+        904.2472534179688
+      ],
+      "territory_id": "Eregion",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 10,
+      "class_name": "a3",
+      "confidence": 0.0850830078125,
+      "bbox_xyxy": [
+        967.0,
+        984.0,
+        1035.0,
+        1039.0
+      ],
+      "color": "amarillo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1001.0,
+        1034.6
+      ],
+      "map_point": [
+        666.1056518554688,
+        1093.7005615234375
+      ],
+      "territory_id": "Minhiriath",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.07696533203125,
+      "bbox_xyxy": [
+        174.125,
+        639.0,
+        245.75,
+        696.5
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        209.9375,
+        691.9
+      ],
+      "map_point": [
+        1196.8173828125,
+        92.09888458251953
+      ],
+      "territory_id": "Forodwaith",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 14,
+      "class_name": "v3",
+      "confidence": 0.07586669921875,
+      "bbox_xyxy": [
+        2226.0,
+        701.0,
+        2288.0,
+        769.5
+      ],
+      "color": "verde",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        2257.0,
+        764.02
+      ],
+      "map_point": [
+        1083.127197265625,
+        2716.246337890625
+      ],
+      "territory_id": "Umbar",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 2,
+      "class_name": "n3",
+      "confidence": 0.07501220703125,
+      "bbox_xyxy": [
+        1738.0,
+        172.375,
+        1769.0,
+        230.0
+      ],
+      "color": "negro",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1753.5,
+        225.39
+      ],
+      "map_point": [
+        1810.923583984375,
+        2052.757080078125
+      ],
+      "territory_id": "Barad-Dur",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.07342529296875,
+      "bbox_xyxy": [
+        1783.0,
+        558.5,
+        1844.0,
+        610.5
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1813.5,
+        606.34
+      ],
+      "map_point": [
+        1309.500244140625,
+        2149.1845703125
+      ],
+      "territory_id": "Ithilien",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 14,
+      "class_name": "v3",
+      "confidence": 0.07135009765625,
+      "bbox_xyxy": [
+        1268.0,
+        938.5,
+        1339.0,
+        987.0
+      ],
+      "color": "verde",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1303.5,
+        983.12
+      ],
+      "map_point": [
+        750.219482421875,
+        1504.9874267578125
+      ],
+      "territory_id": "Enedwaith",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 9,
+      "class_name": "a2",
+      "confidence": 0.06683349609375,
+      "bbox_xyxy": [
+        809.5,
+        775.0,
+        875.5,
+        833.0
+      ],
+      "color": "amarillo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        842.5,
+        828.36
+      ],
+      "map_point": [
+        990.3812866210938,
+        904.2472534179688
+      ],
+      "territory_id": "Eregion",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 10,
+      "class_name": "a3",
+      "confidence": 0.06634521484375,
+      "bbox_xyxy": [
+        1268.0,
+        938.5,
+        1339.0,
+        987.0
+      ],
+      "color": "amarillo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1303.5,
+        983.12
+      ],
+      "map_point": [
+        750.219482421875,
+        1504.9874267578125
+      ],
+      "territory_id": "Enedwaith",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 1,
+      "class_name": "n2",
+      "confidence": 0.06097412109375,
+      "bbox_xyxy": [
+        235.375,
+        284.25,
+        302.75,
+        358.0
+      ],
+      "color": "negro",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        269.0625,
+        352.1
+      ],
+      "map_point": [
+        1670.356201171875,
+        249.76171875
+      ],
+      "territory_id": "Brezal_Seco",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.060089111328125,
+      "bbox_xyxy": [
+        1790.0,
+        564.0,
+        1847.0,
+        610.0
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1818.5,
+        606.32
+      ],
+      "map_point": [
+        1309.492919921875,
+        2155.3388671875
+      ],
+      "territory_id": "Ithilien",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.058135986328125,
+      "bbox_xyxy": [
+        1706.0,
+        1082.0,
+        1740.0,
+        1149.0
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1723.0,
+        1143.64
+      ],
+      "map_point": [
+        491.9139099121094,
+        2070.79638671875
+      ],
+      "territory_id": "Orwaith_Iaur",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.0560302734375,
+      "bbox_xyxy": [
+        1844.0,
+        702.0,
+        1898.0,
+        757.5
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1871.0,
+        753.06
+      ],
+      "map_point": [
+        1100.24462890625,
+        2232.67236328125
+      ],
+      "territory_id": "Lebennin",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.05560302734375,
+      "bbox_xyxy": [
+        1688.0,
+        677.0,
+        1770.0,
+        728.0
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1729.0,
+        723.92
+      ],
+      "map_point": [
+        1143.0731201171875,
+        2051.90087890625
+      ],
+      "territory_id": "Minas_Tirith",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 5,
+      "class_name": "r2",
+      "confidence": 0.0548095703125,
+      "bbox_xyxy": [
+        1782.0,
+        535.0,
+        1857.0,
+        593.0
+      ],
+      "color": "rojo",
+      "pin_type": 2,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1819.5,
+        588.36
+      ],
+      "map_point": [
+        1334.4169921875,
+        2155.2236328125
+      ],
+      "territory_id": "Ithilien",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 0,
+      "class_name": "n1",
+      "confidence": 0.054595947265625,
+      "bbox_xyxy": [
+        2064.0,
+        1089.0,
+        2110.0,
+        1115.0
+      ],
+      "color": "negro",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        2087.0,
+        1112.92
+      ],
+      "map_point": [
+        545.5770263671875,
+        2553.455078125
+      ],
+      "territory_id": null,
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 6,
+      "class_name": "r3",
+      "confidence": 0.0509033203125,
+      "bbox_xyxy": [
+        606.5,
+        722.5,
+        652.5,
+        800.0
+      ],
+      "color": "rojo",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        629.5,
+        793.8
+      ],
+      "map_point": [
+        1043.1744384765625,
+        626.9741821289062
+      ],
+      "territory_id": "Tierras_fronterizas",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 2,
+      "class_name": "n3",
+      "confidence": 0.050506591796875,
+      "bbox_xyxy": [
+        709.5,
+        1201.0,
+        761.5,
+        1288.0
+      ],
+      "color": "negro",
+      "pin_type": 3,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        735.5,
+        1281.04
+      ],
+      "map_point": [
+        243.74501037597656,
+        688.0601806640625
+      ],
+      "territory_id": "Milethond",
+      "inference_pass": "full_frame"
+    },
+    {
+      "class_id": 8,
+      "class_name": "a1",
+      "confidence": 0.46484375,
+      "bbox_xyxy": [
+        1416.8122100830078,
+        403.1925964355469,
+        1426.4089889526367,
+        407.1781311035156
+      ],
+      "color": "amarillo",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1421.6105995178223,
+        406.85928833007813
+      ],
+      "map_point": [
+        1583.4227294921875,
+        1663.529296875
+      ],
+      "territory_id": "Cienaga_de_los_muertos",
+      "inference_pass": "zoom:Cienaga_de_los_muertos"
+    },
+    {
+      "class_id": 8,
+      "class_name": "a1",
+      "confidence": 0.34521484375,
+      "bbox_xyxy": [
+        1405.589744567871,
+        402.9828186035156,
+        1413.5608444213867,
+        406.9683532714844
+      ],
+      "color": "amarillo",
+      "pin_type": 1,
+      "source_width": 2560,
+      "source_height": 1440,
+      "contact_point": [
+        1409.575294494629,
+        406.6495104980469
+      ],
+      "map_point": [
+        1583.8421630859375,
+        1648.9486083984375
+      ],
+      "territory_id": "Cienaga_de_los_muertos",
+      "inference_pass": "zoom:Cienaga_de_los_muertos"
+    }
+  ],
+  "state": {
+    "phase_number": 6,
+    "unassigned_detections": 2,
+    "marks_by_color": {
+      "marca_1": 22,
+      "marca_2": 11
+    },
+    "controlled_regions": {},
+    "territories": {
+      "Andrast": {
+        "territory_id": "Andrast",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 1,
+        "confidence_sum": 0.8408203125,
+        "color_scores": {
+          "rojo": 0.8408203125
+        },
+        "pin_type_counts": {
+          "1": 1
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 1.0,
+            "sum": 0.8408203125,
+            "max": 0.8408203125,
+            "mean": 0.8408203125
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.8408 con max_detection",
+        "marks_by_color": {}
+      },
+      "Anfalas": {
+        "territory_id": "Anfalas",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 2,
+        "confidence_sum": 0.7705078125,
+        "color_scores": {
+          "rojo": 0.7705078125
+        },
+        "pin_type_counts": {
+          "2": 1,
+          "1": 1
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 2.0,
+            "sum": 0.7705078125,
+            "max": 0.51953125,
+            "mean": 0.38525390625
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.5195 con max_detection",
+        "marks_by_color": {}
+      },
+      "Angmar": {
+        "territory_id": "Angmar",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 1,
+        "confidence_sum": 0.161376953125,
+        "color_scores": {
+          "rojo": 0.161376953125
+        },
+        "pin_type_counts": {
+          "2": 1
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 1.0,
+            "sum": 0.161376953125,
+            "max": 0.161376953125,
+            "mean": 0.161376953125
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.1614 con max_detection",
+        "marks_by_color": {}
+      },
+      "Angmar_del_Este": {
+        "territory_id": "Angmar_del_Este",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 2,
+        "confidence_sum": 0.8936767578125,
+        "color_scores": {
+          "rojo": 0.8936767578125
+        },
+        "pin_type_counts": {
+          "2": 1,
+          "3": 1
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 2.0,
+            "sum": 0.8936767578125,
+            "max": 0.75048828125,
+            "mean": 0.44683837890625
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.7505 con max_detection",
+        "marks_by_color": {
+          "marca_1": 1
+        }
+      },
+      "Barad-Dur": {
+        "territory_id": "Barad-Dur",
+        "color": "negro",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 3,
+        "confidence_sum": 0.53302001953125,
+        "color_scores": {
+          "negro": 0.53302001953125
+        },
+        "pin_type_counts": {
+          "1": 1,
+          "0": 1,
+          "3": 1
+        },
+        "color_evidence": {
+          "negro": {
+            "count": 3.0,
+            "sum": 0.53302001953125,
+            "max": 0.25244140625,
+            "mean": 0.17767333984375
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "negro obtuvo 0.2524 con max_detection",
+        "marks_by_color": {
+          "marca_1": 1,
+          "marca_2": 1
+        }
+      },
+      "Belfalas": {
+        "territory_id": "Belfalas",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 3,
+        "confidence_sum": 1.53173828125,
+        "color_scores": {
+          "rojo": 1.53173828125
+        },
+        "pin_type_counts": {
+          "3": 2,
+          "2": 1
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 3.0,
+            "sum": 1.53173828125,
+            "max": 0.81982421875,
+            "mean": 0.5105794270833334
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.8198 con max_detection",
+        "marks_by_color": {
+          "marca_1": 1
+        }
+      },
+      "Bosque_Viejo": {
+        "territory_id": "Bosque_Viejo",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 1,
+        "confidence_sum": 0.662109375,
+        "color_scores": {
+          "rojo": 0.662109375
+        },
+        "pin_type_counts": {
+          "2": 1
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 1.0,
+            "sum": 0.662109375,
+            "max": 0.662109375,
+            "mean": 0.662109375
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.6621 con max_detection",
+        "marks_by_color": {}
+      },
+      "Brezal_Seco": {
+        "territory_id": "Brezal_Seco",
+        "color": "negro",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 4,
+        "confidence_sum": 0.541259765625,
+        "color_scores": {
+          "negro": 0.541259765625
+        },
+        "pin_type_counts": {
+          "3": 2,
+          "1": 1,
+          "2": 1
+        },
+        "color_evidence": {
+          "negro": {
+            "count": 4.0,
+            "sum": 0.541259765625,
+            "max": 0.25537109375,
+            "mean": 0.13531494140625
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "negro obtuvo 0.2554 con max_detection",
+        "marks_by_color": {}
+      },
+      "Campos_Gladios": {
+        "territory_id": "Campos_Gladios",
+        "color": "verde",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 3,
+        "confidence_sum": 1.1541748046875,
+        "color_scores": {
+          "verde": 1.1541748046875
+        },
+        "pin_type_counts": {
+          "3": 3
+        },
+        "color_evidence": {
+          "verde": {
+            "count": 3.0,
+            "sum": 1.1541748046875,
+            "max": 0.79052734375,
+            "mean": 0.3847249348958333
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "verde obtuvo 0.7905 con max_detection",
+        "marks_by_color": {}
+      },
+      "Cercano_Harad": {
+        "territory_id": "Cercano_Harad",
+        "color": "verde",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 3,
+        "confidence_sum": 0.479736328125,
+        "color_scores": {
+          "verde": 0.479736328125
+        },
+        "pin_type_counts": {
+          "3": 3
+        },
+        "color_evidence": {
+          "verde": {
+            "count": 3.0,
+            "sum": 0.479736328125,
+            "max": 0.184814453125,
+            "mean": 0.159912109375
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "verde obtuvo 0.1848 con max_detection",
+        "marks_by_color": {}
+      },
+      "Cienaga_de_los_muertos": {
+        "territory_id": "Cienaga_de_los_muertos",
+        "color": "amarillo",
+        "changed": true,
+        "conflict": false,
+        "detection_count": 2,
+        "confidence_sum": 0.81005859375,
+        "color_scores": {
+          "amarillo": 0.81005859375
+        },
+        "pin_type_counts": {
+          "1": 2
+        },
+        "color_evidence": {
+          "amarillo": {
+            "count": 2.0,
+            "sum": 0.81005859375,
+            "max": 0.46484375,
+            "mean": 0.405029296875
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "amarillo obtuvo 0.4648 con max_detection",
+        "marks_by_color": {
+          "marca_1": 1
+        }
+      },
+      "Colinas_de_Evendim": {
+        "territory_id": "Colinas_de_Evendim",
+        "color": "negro",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 1,
+        "confidence_sum": 0.93359375,
+        "color_scores": {
+          "negro": 0.93359375
+        },
+        "pin_type_counts": {
+          "2": 1
+        },
+        "color_evidence": {
+          "negro": {
+            "count": 1.0,
+            "sum": 0.93359375,
+            "max": 0.93359375,
+            "mean": 0.93359375
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "negro obtuvo 0.9336 con max_detection",
+        "marks_by_color": {
+          "marca_2": 1
+        }
+      },
+      "Colinas_de_la_Torre": {
+        "territory_id": "Colinas_de_la_Torre",
+        "color": "negro",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 1,
+        "confidence_sum": 0.830078125,
+        "color_scores": {
+          "negro": 0.830078125
+        },
+        "pin_type_counts": {
+          "2": 1
+        },
+        "color_evidence": {
+          "negro": {
+            "count": 1.0,
+            "sum": 0.830078125,
+            "max": 0.830078125,
+            "mean": 0.830078125
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "negro obtuvo 0.8301 con max_detection",
+        "marks_by_color": {}
+      },
+      "Colinas_del_Rhun": {
+        "territory_id": "Colinas_del_Rhun",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 1,
+        "confidence_sum": 0.85107421875,
+        "color_scores": {
+          "rojo": 0.85107421875
+        },
+        "pin_type_counts": {
+          "2": 1
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 1.0,
+            "sum": 0.85107421875,
+            "max": 0.85107421875,
+            "mean": 0.85107421875
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.8511 con max_detection",
+        "marks_by_color": {}
+      },
+      "Colinas_del_Viento": {
+        "territory_id": "Colinas_del_Viento",
+        "color": "rojo",
+        "changed": false,
+        "conflict": true,
+        "detection_count": 2,
+        "confidence_sum": 1.34521484375,
+        "color_scores": {
+          "rojo": 0.85693359375,
+          "negro": 0.48828125
+        },
+        "pin_type_counts": {
+          "1": 2
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 1.0,
+            "sum": 0.85693359375,
+            "max": 0.85693359375,
+            "mean": 0.85693359375
+          },
+          "negro": {
+            "count": 1.0,
+            "sum": 0.48828125,
+            "max": 0.48828125,
+            "mean": 0.48828125
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.8569 con max_detection",
+        "marks_by_color": {
+          "marca_1": 1
+        }
+      },
+      "Emyn_Muil": {
+        "territory_id": "Emyn_Muil",
+        "color": "verde",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 2,
+        "confidence_sum": 0.787109375,
+        "color_scores": {
+          "verde": 0.787109375
+        },
+        "pin_type_counts": {
+          "3": 1,
+          "2": 1
+        },
+        "color_evidence": {
+          "verde": {
+            "count": 2.0,
+            "sum": 0.787109375,
+            "max": 0.418701171875,
+            "mean": 0.3935546875
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "verde obtuvo 0.4187 con max_detection",
+        "marks_by_color": {}
+      },
+      "Enedwaith": {
+        "territory_id": "Enedwaith",
+        "color": "amarillo",
+        "changed": false,
+        "conflict": true,
+        "detection_count": 4,
+        "confidence_sum": 0.6097412109375,
+        "color_scores": {
+          "amarillo": 0.39227294921875,
+          "verde": 0.21746826171875
+        },
+        "pin_type_counts": {
+          "2": 2,
+          "3": 2
+        },
+        "color_evidence": {
+          "amarillo": {
+            "count": 2.0,
+            "sum": 0.39227294921875,
+            "max": 0.325927734375,
+            "mean": 0.196136474609375
+          },
+          "verde": {
+            "count": 2.0,
+            "sum": 0.21746826171875,
+            "max": 0.1461181640625,
+            "mean": 0.108734130859375
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "amarillo obtuvo 0.3259 con max_detection",
+        "marks_by_color": {}
+      },
+      "Eregion": {
+        "territory_id": "Eregion",
+        "color": "verde",
+        "changed": true,
+        "conflict": true,
+        "detection_count": 3,
+        "confidence_sum": 0.48419189453125,
+        "color_scores": {
+          "verde": 0.4173583984375,
+          "amarillo": 0.06683349609375
+        },
+        "pin_type_counts": {
+          "2": 2,
+          "3": 1
+        },
+        "color_evidence": {
+          "verde": {
+            "count": 2.0,
+            "sum": 0.4173583984375,
+            "max": 0.3310546875,
+            "mean": 0.20867919921875
+          },
+          "amarillo": {
+            "count": 1.0,
+            "sum": 0.06683349609375,
+            "max": 0.06683349609375,
+            "mean": 0.06683349609375
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "verde obtuvo 0.3311 con max_detection",
+        "marks_by_color": {
+          "marca_1": 1
+        }
+      },
+      "Esgaroth": {
+        "territory_id": "Esgaroth",
+        "color": "negro",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 1,
+        "confidence_sum": 0.611328125,
+        "color_scores": {
+          "negro": 0.611328125
+        },
+        "pin_type_counts": {
+          "2": 1
+        },
+        "color_evidence": {
+          "negro": {
+            "count": 1.0,
+            "sum": 0.611328125,
+            "max": 0.611328125,
+            "mean": 0.611328125
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "negro obtuvo 0.6113 con max_detection",
+        "marks_by_color": {
+          "marca_1": 1
+        }
+      },
+      "Este_del_Bosque_Negro": {
+        "territory_id": "Este_del_Bosque_Negro",
+        "color": "verde",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 1,
+        "confidence_sum": 0.955078125,
+        "color_scores": {
+          "verde": 0.955078125
+        },
+        "pin_type_counts": {
+          "3": 1
+        },
+        "color_evidence": {
+          "verde": {
+            "count": 1.0,
+            "sum": 0.955078125,
+            "max": 0.955078125,
+            "mean": 0.955078125
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "verde obtuvo 0.9551 con max_detection",
+        "marks_by_color": {}
+      },
+      "Fangorn": {
+        "territory_id": "Fangorn",
+        "color": "verde",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 1,
+        "confidence_sum": 0.84375,
+        "color_scores": {
+          "verde": 0.84375
+        },
+        "pin_type_counts": {
+          "1": 1
+        },
+        "color_evidence": {
+          "verde": {
+            "count": 1.0,
+            "sum": 0.84375,
+            "max": 0.84375,
+            "mean": 0.84375
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "verde obtuvo 0.8438 con max_detection",
+        "marks_by_color": {
+          "marca_2": 1
+        }
+      },
+      "Forlindon": {
+        "territory_id": "Forlindon",
+        "color": "negro",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 2,
+        "confidence_sum": 0.80029296875,
+        "color_scores": {
+          "negro": 0.80029296875
+        },
+        "pin_type_counts": {
+          "3": 1,
+          "2": 1
+        },
+        "color_evidence": {
+          "negro": {
+            "count": 2.0,
+            "sum": 0.80029296875,
+            "max": 0.45703125,
+            "mean": 0.400146484375
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "negro obtuvo 0.4570 con max_detection",
+        "marks_by_color": {}
+      },
+      "Fornost": {
+        "territory_id": "Fornost",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 1,
+        "confidence_sum": 0.7490234375,
+        "color_scores": {
+          "rojo": 0.7490234375
+        },
+        "pin_type_counts": {
+          "1": 1
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 1.0,
+            "sum": 0.7490234375,
+            "max": 0.7490234375,
+            "mean": 0.7490234375
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.7490 con max_detection",
+        "marks_by_color": {
+          "marca_1": 1
+        }
+      },
+      "Forodwaith": {
+        "territory_id": "Forodwaith",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 4,
+        "confidence_sum": 1.11309814453125,
+        "color_scores": {
+          "rojo": 1.11309814453125
+        },
+        "pin_type_counts": {
+          "2": 1,
+          "3": 3
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 4.0,
+            "sum": 1.11309814453125,
+            "max": 0.552734375,
+            "mean": 0.2782745361328125
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.5527 con max_detection",
+        "marks_by_color": {
+          "marca_1": 1
+        }
+      },
+      "Harad": {
+        "territory_id": "Harad",
+        "color": "amarillo",
+        "changed": false,
+        "conflict": true,
+        "detection_count": 4,
+        "confidence_sum": 1.1253662109375,
+        "color_scores": {
+          "amarillo": 0.8011474609375,
+          "negro": 0.32421875
+        },
+        "pin_type_counts": {
+          "3": 3,
+          "2": 1
+        },
+        "color_evidence": {
+          "amarillo": {
+            "count": 2.0,
+            "sum": 0.8011474609375,
+            "max": 0.7138671875,
+            "mean": 0.40057373046875
+          },
+          "negro": {
+            "count": 2.0,
+            "sum": 0.32421875,
+            "max": 0.22265625,
+            "mean": 0.162109375
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "amarillo obtuvo 0.7139 con max_detection",
+        "marks_by_color": {}
+      },
+      "Harlindon": {
+        "territory_id": "Harlindon",
+        "color": "negro",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 1,
+        "confidence_sum": 0.861328125,
+        "color_scores": {
+          "negro": 0.861328125
+        },
+        "pin_type_counts": {
+          "2": 1
+        },
+        "color_evidence": {
+          "negro": {
+            "count": 1.0,
+            "sum": 0.861328125,
+            "max": 0.861328125,
+            "mean": 0.861328125
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "negro obtuvo 0.8613 con max_detection",
+        "marks_by_color": {
+          "marca_1": 1
+        }
+      },
+      "Harondor": {
+        "territory_id": "Harondor",
+        "color": "verde",
+        "changed": false,
+        "conflict": true,
+        "detection_count": 3,
+        "confidence_sum": 0.677734375,
+        "color_scores": {
+          "verde": 0.4796142578125,
+          "amarillo": 0.1981201171875
+        },
+        "pin_type_counts": {
+          "1": 1,
+          "3": 2
+        },
+        "color_evidence": {
+          "verde": {
+            "count": 2.0,
+            "sum": 0.4796142578125,
+            "max": 0.281494140625,
+            "mean": 0.23980712890625
+          },
+          "amarillo": {
+            "count": 1.0,
+            "sum": 0.1981201171875,
+            "max": 0.1981201171875,
+            "mean": 0.1981201171875
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "verde obtuvo 0.2815 con max_detection",
+        "marks_by_color": {}
+      },
+      "Ithilien": {
+        "territory_id": "Ithilien",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 8,
+        "confidence_sum": 1.499114990234375,
+        "color_scores": {
+          "rojo": 1.499114990234375
+        },
+        "pin_type_counts": {
+          "2": 4,
+          "3": 4
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 8.0,
+            "sum": 1.499114990234375,
+            "max": 0.6279296875,
+            "mean": 0.18738937377929688
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.6279 con max_detection",
+        "marks_by_color": {
+          "marca_1": 1
+        }
+      },
+      "Ithilien_del_Sur": {
+        "territory_id": "Ithilien_del_Sur",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 1,
+        "confidence_sum": 0.93115234375,
+        "color_scores": {
+          "rojo": 0.93115234375
+        },
+        "pin_type_counts": {
+          "2": 1
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 1.0,
+            "sum": 0.93115234375,
+            "max": 0.93115234375,
+            "mean": 0.93115234375
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.9312 con max_detection",
+        "marks_by_color": {}
+      },
+      "Khand": {
+        "territory_id": "Khand",
+        "color": "verde",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 2,
+        "confidence_sum": 0.333984375,
+        "color_scores": {
+          "verde": 0.333984375
+        },
+        "pin_type_counts": {
+          "3": 2
+        },
+        "color_evidence": {
+          "verde": {
+            "count": 2.0,
+            "sum": 0.333984375,
+            "max": 0.178955078125,
+            "mean": 0.1669921875
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "verde obtuvo 0.1790 con max_detection",
+        "marks_by_color": {
+          "marca_1": 1
+        }
+      },
+      "La_Carroca": {
+        "territory_id": "La_Carroca",
+        "color": "verde",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 1,
+        "confidence_sum": 0.80908203125,
+        "color_scores": {
+          "verde": 0.80908203125
+        },
+        "pin_type_counts": {
+          "1": 1
+        },
+        "color_evidence": {
+          "verde": {
+            "count": 1.0,
+            "sum": 0.80908203125,
+            "max": 0.80908203125,
+            "mean": 0.80908203125
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "verde obtuvo 0.8091 con max_detection",
+        "marks_by_color": {}
+      },
+      "La_Comarca": {
+        "territory_id": "La_Comarca",
+        "color": "negro",
+        "changed": false,
+        "conflict": true,
+        "detection_count": 2,
+        "confidence_sum": 1.71630859375,
+        "color_scores": {
+          "negro": 0.90478515625,
+          "rojo": 0.8115234375
+        },
+        "pin_type_counts": {
+          "1": 1,
+          "2": 1
+        },
+        "color_evidence": {
+          "negro": {
+            "count": 1.0,
+            "sum": 0.90478515625,
+            "max": 0.90478515625,
+            "mean": 0.90478515625
+          },
+          "rojo": {
+            "count": 1.0,
+            "sum": 0.8115234375,
+            "max": 0.8115234375,
+            "mean": 0.8115234375
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "negro obtuvo 0.9048 con max_detection",
+        "marks_by_color": {
+          "marca_1": 1
+        }
+      },
+      "Lamedon": {
+        "territory_id": "Lamedon",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 3,
+        "confidence_sum": 0.5755615234375,
+        "color_scores": {
+          "rojo": 0.5755615234375
+        },
+        "pin_type_counts": {
+          "3": 1,
+          "2": 1,
+          "1": 1
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 3.0,
+            "sum": 0.5755615234375,
+            "max": 0.267333984375,
+            "mean": 0.19185384114583334
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.2673 con max_detection",
+        "marks_by_color": {}
+      },
+      "Lebennin": {
+        "territory_id": "Lebennin",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 5,
+        "confidence_sum": 1.413330078125,
+        "color_scores": {
+          "rojo": 1.413330078125
+        },
+        "pin_type_counts": {
+          "2": 2,
+          "3": 3
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 5.0,
+            "sum": 1.413330078125,
+            "max": 0.78515625,
+            "mean": 0.282666015625
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.7852 con max_detection",
+        "marks_by_color": {
+          "marca_1": 1
+        }
+      },
+      "Lejano_Harad": {
+        "territory_id": "Lejano_Harad",
+        "color": null,
+        "changed": true,
+        "conflict": false,
+        "detection_count": 0,
+        "confidence_sum": 0.0,
+        "color_scores": {},
+        "pin_type_counts": {},
+        "color_evidence": {},
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "sin detecciones",
+        "marks_by_color": {}
+      },
+      "Llanura_de_Rohan": {
+        "territory_id": "Llanura_de_Rohan",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 3,
+        "confidence_sum": 1.4962158203125,
+        "color_scores": {
+          "rojo": 1.4962158203125
+        },
+        "pin_type_counts": {
+          "1": 2,
+          "2": 1
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 3.0,
+            "sum": 1.4962158203125,
+            "max": 0.85693359375,
+            "mean": 0.4987386067708333
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.8569 con max_detection",
+        "marks_by_color": {
+          "marca_1": 1
+        }
+      },
+      "Lorien": {
+        "territory_id": "Lorien",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 2,
+        "confidence_sum": 0.75970458984375,
+        "color_scores": {
+          "rojo": 0.75970458984375
+        },
+        "pin_type_counts": {
+          "2": 1,
+          "3": 1
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 2.0,
+            "sum": 0.75970458984375,
+            "max": 0.63720703125,
+            "mean": 0.379852294921875
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.6372 con max_detection",
+        "marks_by_color": {
+          "marca_1": 1
+        }
+      },
+      "Los_Gamos": {
+        "territory_id": "Los_Gamos",
+        "color": null,
+        "changed": false,
+        "conflict": false,
+        "detection_count": 0,
+        "confidence_sum": 0.0,
+        "color_scores": {},
+        "pin_type_counts": {},
+        "color_evidence": {},
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "sin detecciones",
+        "marks_by_color": {}
+      },
+      "Meseta_de_Gorgoroth": {
+        "territory_id": "Meseta_de_Gorgoroth",
+        "color": "negro",
+        "changed": true,
+        "conflict": false,
+        "detection_count": 1,
+        "confidence_sum": 0.486328125,
+        "color_scores": {
+          "negro": 0.486328125
+        },
+        "pin_type_counts": {
+          "3": 1
+        },
+        "color_evidence": {
+          "negro": {
+            "count": 1.0,
+            "sum": 0.486328125,
+            "max": 0.486328125,
+            "mean": 0.486328125
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "negro obtuvo 0.4863 con max_detection",
+        "marks_by_color": {}
+      },
+      "Milethond": {
+        "territory_id": "Milethond",
+        "color": "negro",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 3,
+        "confidence_sum": 1.230926513671875,
+        "color_scores": {
+          "negro": 1.230926513671875
+        },
+        "pin_type_counts": {
+          "3": 3
+        },
+        "color_evidence": {
+          "negro": {
+            "count": 3.0,
+            "sum": 1.230926513671875,
+            "max": 0.73095703125,
+            "mean": 0.410308837890625
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "negro obtuvo 0.7310 con max_detection",
+        "marks_by_color": {
+          "marca_1": 1
+        }
+      },
+      "Minas_Morgul": {
+        "territory_id": "Minas_Morgul",
+        "color": "negro",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 3,
+        "confidence_sum": 1.14794921875,
+        "color_scores": {
+          "negro": 1.14794921875
+        },
+        "pin_type_counts": {
+          "3": 3
+        },
+        "color_evidence": {
+          "negro": {
+            "count": 3.0,
+            "sum": 1.14794921875,
+            "max": 0.6826171875,
+            "mean": 0.3826497395833333
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "negro obtuvo 0.6826 con max_detection",
+        "marks_by_color": {
+          "marca_2": 1
+        }
+      },
+      "Minas_Tirith": {
+        "territory_id": "Minas_Tirith",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 2,
+        "confidence_sum": 0.81048583984375,
+        "color_scores": {
+          "rojo": 0.81048583984375
+        },
+        "pin_type_counts": {
+          "3": 2
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 2.0,
+            "sum": 0.81048583984375,
+            "max": 0.7548828125,
+            "mean": 0.405242919921875
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.7549 con max_detection",
+        "marks_by_color": {
+          "marca_2": 1
+        }
+      },
+      "Minhiriath": {
+        "territory_id": "Minhiriath",
+        "color": "amarillo",
+        "changed": false,
+        "conflict": true,
+        "detection_count": 4,
+        "confidence_sum": 0.7423095703125,
+        "color_scores": {
+          "amarillo": 0.4830322265625,
+          "verde": 0.25927734375
+        },
+        "pin_type_counts": {
+          "2": 2,
+          "3": 2
+        },
+        "color_evidence": {
+          "amarillo": {
+            "count": 2.0,
+            "sum": 0.4830322265625,
+            "max": 0.39794921875,
+            "mean": 0.24151611328125
+          },
+          "verde": {
+            "count": 2.0,
+            "sum": 0.25927734375,
+            "max": 0.154052734375,
+            "mean": 0.129638671875
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "amarillo obtuvo 0.3979 con max_detection",
+        "marks_by_color": {
+          "marca_1": 1
+        }
+      },
+      "Monte_del_Destino": {
+        "territory_id": "Monte_del_Destino",
+        "color": "negro",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 4,
+        "confidence_sum": 1.2333984375,
+        "color_scores": {
+          "negro": 1.2333984375
+        },
+        "pin_type_counts": {
+          "2": 2,
+          "3": 2
+        },
+        "color_evidence": {
+          "negro": {
+            "count": 4.0,
+            "sum": 1.2333984375,
+            "max": 0.7373046875,
+            "mean": 0.308349609375
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "negro obtuvo 0.7373 con max_detection",
+        "marks_by_color": {}
+      },
+      "Moria": {
+        "territory_id": "Moria",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 3,
+        "confidence_sum": 0.62359619140625,
+        "color_scores": {
+          "rojo": 0.62359619140625
+        },
+        "pin_type_counts": {
+          "3": 1,
+          "1": 1,
+          "2": 1
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 3.0,
+            "sum": 0.62359619140625,
+            "max": 0.42431640625,
+            "mean": 0.20786539713541666
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.4243 con max_detection",
+        "marks_by_color": {
+          "marca_2": 1
+        }
+      },
+      "Norte_del_Bosque_Negro": {
+        "territory_id": "Norte_del_Bosque_Negro",
+        "color": "verde",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 1,
+        "confidence_sum": 0.6513671875,
+        "color_scores": {
+          "verde": 0.6513671875
+        },
+        "pin_type_counts": {
+          "1": 1
+        },
+        "color_evidence": {
+          "verde": {
+            "count": 1.0,
+            "sum": 0.6513671875,
+            "max": 0.6513671875,
+            "mean": 0.6513671875
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "verde obtuvo 0.6514 con max_detection",
+        "marks_by_color": {
+          "marca_1": 1
+        }
+      },
+      "Nurn": {
+        "territory_id": "Nurn",
+        "color": "negro",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 2,
+        "confidence_sum": 1.001220703125,
+        "color_scores": {
+          "negro": 1.001220703125
+        },
+        "pin_type_counts": {
+          "2": 2
+        },
+        "color_evidence": {
+          "negro": {
+            "count": 2.0,
+            "sum": 1.001220703125,
+            "max": 0.8388671875,
+            "mean": 0.5006103515625
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "negro obtuvo 0.8389 con max_detection",
+        "marks_by_color": {}
+      },
+      "Orwaith_Iaur": {
+        "territory_id": "Orwaith_Iaur",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 2,
+        "confidence_sum": 0.669464111328125,
+        "color_scores": {
+          "rojo": 0.669464111328125
+        },
+        "pin_type_counts": {
+          "3": 1,
+          "2": 1
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 2.0,
+            "sum": 0.669464111328125,
+            "max": 0.611328125,
+            "mean": 0.3347320556640625
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.6113 con max_detection",
+        "marks_by_color": {}
+      },
+      "Paso_de_Rohan": {
+        "territory_id": "Paso_de_Rohan",
+        "color": "verde",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 2,
+        "confidence_sum": 0.5289306640625,
+        "color_scores": {
+          "verde": 0.5289306640625
+        },
+        "pin_type_counts": {
+          "3": 1,
+          "2": 1
+        },
+        "color_evidence": {
+          "verde": {
+            "count": 2.0,
+            "sum": 0.5289306640625,
+            "max": 0.422607421875,
+            "mean": 0.26446533203125
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "verde obtuvo 0.4226 con max_detection",
+        "marks_by_color": {
+          "marca_1": 1
+        }
+      },
+      "Quebradas_del_Norte": {
+        "territory_id": "Quebradas_del_Norte",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 1,
+        "confidence_sum": 0.70751953125,
+        "color_scores": {
+          "rojo": 0.70751953125
+        },
+        "pin_type_counts": {
+          "1": 1
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 1.0,
+            "sum": 0.70751953125,
+            "max": 0.70751953125,
+            "mean": 0.70751953125
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.7075 con max_detection",
+        "marks_by_color": {}
+      },
+      "Quebradas_del_Sur": {
+        "territory_id": "Quebradas_del_Sur",
+        "color": "rojo",
+        "changed": false,
+        "conflict": true,
+        "detection_count": 2,
+        "confidence_sum": 1.1102294921875,
+        "color_scores": {
+          "rojo": 0.9541015625,
+          "verde": 0.1561279296875
+        },
+        "pin_type_counts": {
+          "2": 1,
+          "3": 1
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 1.0,
+            "sum": 0.9541015625,
+            "max": 0.9541015625,
+            "mean": 0.9541015625
+          },
+          "verde": {
+            "count": 1.0,
+            "sum": 0.1561279296875,
+            "max": 0.1561279296875,
+            "mean": 0.1561279296875
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.9541 con max_detection",
+        "marks_by_color": {}
+      },
+      "Rhudaur": {
+        "territory_id": "Rhudaur",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 1,
+        "confidence_sum": 0.341552734375,
+        "color_scores": {
+          "rojo": 0.341552734375
+        },
+        "pin_type_counts": {
+          "3": 1
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 1.0,
+            "sum": 0.341552734375,
+            "max": 0.341552734375,
+            "mean": 0.341552734375
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.3416 con max_detection",
+        "marks_by_color": {
+          "marca_2": 1
+        }
+      },
+      "Rhun_del_norte": {
+        "territory_id": "Rhun_del_norte",
+        "color": null,
+        "changed": false,
+        "conflict": false,
+        "detection_count": 0,
+        "confidence_sum": 0.0,
+        "color_scores": {},
+        "pin_type_counts": {},
+        "color_evidence": {},
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "sin detecciones",
+        "marks_by_color": {}
+      },
+      "Rhun_del_sur": {
+        "territory_id": "Rhun_del_sur",
+        "color": "negro",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 1,
+        "confidence_sum": 0.447509765625,
+        "color_scores": {
+          "negro": 0.447509765625
+        },
+        "pin_type_counts": {
+          "2": 1
+        },
+        "color_evidence": {
+          "negro": {
+            "count": 1.0,
+            "sum": 0.447509765625,
+            "max": 0.447509765625,
+            "mean": 0.447509765625
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "negro obtuvo 0.4475 con max_detection",
+        "marks_by_color": {}
+      },
+      "Rohan_del_Oeste": {
+        "territory_id": "Rohan_del_Oeste",
+        "color": "verde",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 1,
+        "confidence_sum": 0.79833984375,
+        "color_scores": {
+          "verde": 0.79833984375
+        },
+        "pin_type_counts": {
+          "3": 1
+        },
+        "color_evidence": {
+          "verde": {
+            "count": 1.0,
+            "sum": 0.79833984375,
+            "max": 0.79833984375,
+            "mean": 0.79833984375
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "verde obtuvo 0.7983 con max_detection",
+        "marks_by_color": {
+          "marca_2": 1
+        }
+      },
+      "Sur_del_Bosque_Negro": {
+        "territory_id": "Sur_del_Bosque_Negro",
+        "color": "verde",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 1,
+        "confidence_sum": 0.740234375,
+        "color_scores": {
+          "verde": 0.740234375
+        },
+        "pin_type_counts": {
+          "3": 1
+        },
+        "color_evidence": {
+          "verde": {
+            "count": 1.0,
+            "sum": 0.740234375,
+            "max": 0.740234375,
+            "mean": 0.740234375
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "verde obtuvo 0.7402 con max_detection",
+        "marks_by_color": {
+          "marca_2": 1
+        }
+      },
+      "Tierras_Brunas": {
+        "territory_id": "Tierras_Brunas",
+        "color": "verde",
+        "changed": true,
+        "conflict": true,
+        "detection_count": 2,
+        "confidence_sum": 0.887939453125,
+        "color_scores": {
+          "verde": 0.611328125,
+          "amarillo": 0.276611328125
+        },
+        "pin_type_counts": {
+          "1": 2
+        },
+        "color_evidence": {
+          "verde": {
+            "count": 1.0,
+            "sum": 0.611328125,
+            "max": 0.611328125,
+            "mean": 0.611328125
+          },
+          "amarillo": {
+            "count": 1.0,
+            "sum": 0.276611328125,
+            "max": 0.276611328125,
+            "mean": 0.276611328125
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "verde obtuvo 0.6113 con max_detection",
+        "marks_by_color": {}
+      },
+      "Tierras_Pardas": {
+        "territory_id": "Tierras_Pardas",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 2,
+        "confidence_sum": 0.9827880859375,
+        "color_scores": {
+          "rojo": 0.9827880859375
+        },
+        "pin_type_counts": {
+          "2": 2
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 2.0,
+            "sum": 0.9827880859375,
+            "max": 0.85595703125,
+            "mean": 0.49139404296875
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.8560 con max_detection",
+        "marks_by_color": {
+          "marca_1": 1
+        }
+      },
+      "Tierras_fronterizas": {
+        "territory_id": "Tierras_fronterizas",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 4,
+        "confidence_sum": 1.269287109375,
+        "color_scores": {
+          "rojo": 1.269287109375
+        },
+        "pin_type_counts": {
+          "3": 4
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 4.0,
+            "sum": 1.269287109375,
+            "max": 0.556640625,
+            "mean": 0.31732177734375
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.5566 con max_detection",
+        "marks_by_color": {}
+      },
+      "Umbar": {
+        "territory_id": "Umbar",
+        "color": "verde",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 2,
+        "confidence_sum": 0.81610107421875,
+        "color_scores": {
+          "verde": 0.81610107421875
+        },
+        "pin_type_counts": {
+          "1": 1,
+          "3": 1
+        },
+        "color_evidence": {
+          "verde": {
+            "count": 2.0,
+            "sum": 0.81610107421875,
+            "max": 0.740234375,
+            "mean": 0.408050537109375
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "verde obtuvo 0.7402 con max_detection",
+        "marks_by_color": {
+          "marca_2": 1
+        }
+      },
+      "Valle_de_Anduin": {
+        "territory_id": "Valle_de_Anduin",
+        "color": "verde",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 2,
+        "confidence_sum": 1.095703125,
+        "color_scores": {
+          "verde": 1.095703125
+        },
+        "pin_type_counts": {
+          "3": 1,
+          "2": 1
+        },
+        "color_evidence": {
+          "verde": {
+            "count": 2.0,
+            "sum": 1.095703125,
+            "max": 0.548828125,
+            "mean": 0.5478515625
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "verde obtuvo 0.5488 con max_detection",
+        "marks_by_color": {}
+      },
+      "Valle_de_Erech": {
+        "territory_id": "Valle_de_Erech",
+        "color": "rojo",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 1,
+        "confidence_sum": 0.74609375,
+        "color_scores": {
+          "rojo": 0.74609375
+        },
+        "pin_type_counts": {
+          "3": 1
+        },
+        "color_evidence": {
+          "rojo": {
+            "count": 1.0,
+            "sum": 0.74609375,
+            "max": 0.74609375,
+            "mean": 0.74609375
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "rojo obtuvo 0.7461 con max_detection",
+        "marks_by_color": {
+          "marca_1": 1
+        }
+      },
+      "Valle_de_Udun": {
+        "territory_id": "Valle_de_Udun",
+        "color": "negro",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 2,
+        "confidence_sum": 1.08544921875,
+        "color_scores": {
+          "negro": 1.08544921875
+        },
+        "pin_type_counts": {
+          "1": 2
+        },
+        "color_evidence": {
+          "negro": {
+            "count": 2.0,
+            "sum": 1.08544921875,
+            "max": 0.62060546875,
+            "mean": 0.542724609375
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "negro obtuvo 0.6206 con max_detection",
+        "marks_by_color": {
+          "marca_2": 1
+        }
+      },
+      "Valle_del_Lune": {
+        "territory_id": "Valle_del_Lune",
+        "color": "negro",
+        "changed": false,
+        "conflict": false,
+        "detection_count": 2,
+        "confidence_sum": 1.178466796875,
+        "color_scores": {
+          "negro": 1.178466796875
+        },
+        "pin_type_counts": {
+          "2": 1,
+          "3": 1
+        },
+        "color_evidence": {
+          "negro": {
+            "count": 2.0,
+            "sum": 1.178466796875,
+            "max": 0.89697265625,
+            "mean": 0.5892333984375
+          }
+        },
+        "resolution_strategy": "max_detection",
+        "resolution_reason": "negro obtuvo 0.8970 con max_detection",
+        "marks_by_color": {}
+      }
+    }
+  },
+  "metrics": {
+    "negro": {
+      "changed_territories": 1.0,
+      "changed_territories_with_mark_type_1": 0.0,
+      "territories": 16.0,
+      "controlled_marks_type_2": 4.0,
+      "control_region": 5.0,
+      "metric_x": 14.333333333333332
+    },
+    "rojo": {
+      "changed_territories": 0.0,
+      "changed_territories_with_mark_type_1": 0.0,
+      "territories": 25.0,
+      "controlled_marks_type_2": 3.0,
+      "control_region": 7.0,
+      "metric_x": 18.333333333333336
+    },
+    "amarillo": {
+      "changed_territories": 1.0,
+      "changed_territories_with_mark_type_1": 1.0,
+      "territories": 4.0,
+      "controlled_marks_type_2": 0.0,
+      "control_region": 0.0,
+      "metric_x": 1.3333333333333333
+    },
+    "verde": {
+      "changed_territories": 2.0,
+      "changed_territories_with_mark_type_1": 1.0,
+      "territories": 16.0,
+      "controlled_marks_type_2": 4.0,
+      "control_region": 4.0,
+      "metric_x": 13.333333333333332
+    }
+  }
+}
